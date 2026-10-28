@@ -1,0 +1,32 @@
+{
+  "name": "embedding-hard",
+  "method": "methods\\embedding.py",
+  "checkpoint": "runs\\embedding\\mlp128_hard.npz",
+  "split": "validation",
+  "accuracy": 90.85213032581454,
+  "correct": 725,
+  "n": 798,
+  "asset_bytes": 1067724,
+  "assets": [
+    {
+      "path": "runs\\embedding\\mlp128_hard.npz",
+      "bytes_on_disk": 1067724,
+      "uncompressed_bytes_counted": 1067724,
+      "sha256": "a942fb970980b610e8d1e7056bae71338e20c0ee5750973597cbd391a191aadb"
+    }
+  ],
+  "timings": [
+    {
+      "prediction_process_seconds": 0.5690548000857234,
+      "scoring_process_seconds": 0.3836865001358092,
+      "complete_seconds": 0.9527413002215326
+    }
+  ],
+  "threads": 4,
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "local_time_limit_pass": true,
+  "reference_cpu_eligibility": "Requires instructor reference-machine evaluation",
+  "recorded_at_utc": "2026-10-22T08:02:17Z"
+}

@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "role": "linear_embedding",
+      "checkpoint": "runs/embedding/linear_listwise.npz",
+      "training_record": "runs/embedding/linear_listwise_training.json",
+      "config": {
+        "batch_size": 128,
+        "epochs": 70,
+        "patience": 12,
+        "lr": 0.002,
+        "l2": 0.001,
+        "dropout": 0.1,
+        "name": "linear_listwise",
+        "mode": "raw",
+        "hidden": 0,
+        "loss": "hybrid",
+        "seed": 17
+      }
+    },
+    {
+      "role": "hard_mlp_embedding",
+      "checkpoint": "runs/embedding/mlp128_hard.npz",
+      "training_record": "runs/embedding/mlp128_hard_training.json",
+      "config": {
+        "batch_size": 128,
+        "epochs": 70,
+        "patience": 12,
+        "lr": 0.001,
+        "l2": 0.005,
+        "dropout": 0.3,
+        "name": "mlp128_hard",
+        "mode": "relative",
+        "hidden": 128,
+        "loss": "hybrid",
+        "seed": 29,
+        "selection": "hard",
+        "hard_training": true
+      }
+    },
+    {
+      "role": "text_without_arithmetic",
+      "checkpoint": "runs/text/no_arithmetic/model.npz",
+      "training_record": "runs/text/no_arithmetic/training.json",
+      "arguments": {
+        "trees": 140,
+        "depth": 3,
+        "learning_rate": 0.06,
+        "l2": 10.0,
+        "min_leaf": 50,
+        "exclude": "arithmetic",
+        "seed": 2026,
+        "output": "runs\\text\\no_arithmetic",
+        "model": "tree",
+        "linear_steps": 1200
+      }
+    }
+  ],
+  "commands_from_code": [
+    "python training/train_embedding.py --config runs/fusion/reproduce_embedding_configs.json --output runs/reproduced/embedding",
+    "python training/train_text.py --trees 140 --depth 3 --learning-rate 0.06 --l2 10 --min-leaf 50 --exclude arithmetic --seed 2026 --model tree --output runs/reproduced/text-no-arithmetic",
+    "python training/tune_fusion.py --embedding runs/reproduced/embedding/linear_listwise.npz --embedding runs/reproduced/embedding/mlp128_hard.npz --text runs/reproduced/text-no-arithmetic/model.npz --fixed --text-weight 0.75 --pool-weight 0 --vote-weight 0 --output runs/reproduced/fusion"
+  ],
+  "notes": [
+    "Use OPENBLAS_NUM_THREADS=OMP_NUM_THREADS=MKL_NUM_THREADS=1 for reproduction.",
+    "All supervised fitting reads train only. Validation selects epochs and originally selected scalar settings.",
+    "The frozen reconstruction command does not retune scalar settings.",
+    "No test references or cached input-specific predictions are used."
+  ]
+}

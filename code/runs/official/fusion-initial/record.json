@@ -1,0 +1,50 @@
+{
+  "name": "fusion-initial",
+  "method": "methods\\fusion.py",
+  "checkpoint": "runs\\fusion\\initial\\best",
+  "split": "validation",
+  "accuracy": 93.10776942355889,
+  "correct": 743,
+  "n": 798,
+  "asset_bytes": 304026,
+  "assets": [
+    {
+      "path": "runs\\fusion\\initial\\best\\config.json",
+      "bytes_on_disk": 660,
+      "uncompressed_bytes_counted": 660,
+      "sha256": "0d1d0e460c2fc533da1638f8423d0eb0379c063fcc74f7066b00b0b0e17bddaf"
+    },
+    {
+      "path": "runs\\fusion\\initial\\best\\models\\0-embedding-linear_listwise.npz",
+      "bytes_on_disk": 13536,
+      "uncompressed_bytes_counted": 13536,
+      "sha256": "36ac25d26dd5eb1539f0f12bad29fe12208b22ddbea2c9916f4d5bc0ff449bf6"
+    },
+    {
+      "path": "runs\\fusion\\initial\\best\\models\\1-embedding-mlp64_raw.npz",
+      "bytes_on_disk": 272568,
+      "uncompressed_bytes_counted": 272568,
+      "sha256": "89d330607c745431bef2cb43824c95f1cb127307ecbd5e60000a683662f6641a"
+    },
+    {
+      "path": "runs\\fusion\\initial\\best\\models\\2-text-model.npz",
+      "bytes_on_disk": 17262,
+      "uncompressed_bytes_counted": 17262,
+      "sha256": "1fac427dc6161792e24728d471a9d443a9f28b04a6aed648fbb812580fccf7ba"
+    }
+  ],
+  "timings": [
+    {
+      "prediction_process_seconds": 2.233953599818051,
+      "scoring_process_seconds": 0.37442220002412796,
+      "complete_seconds": 2.608375799842179
+    }
+  ],
+  "threads": 4,
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "local_time_limit_pass": true,
+  "reference_cpu_eligibility": "Requires instructor reference-machine evaluation",
+  "recorded_at_utc": "2026-10-22T08:05:09Z"
+}

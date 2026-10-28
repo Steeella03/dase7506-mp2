@@ -1,0 +1,26 @@
+{
+  "hypothesis": "Fixed equal-logit seed ensemble reduces variance; no seed selection or scalar retuning",
+  "mlp_seeds": [
+    29,
+    31,
+    37,
+    41,
+    43
+  ],
+  "weights": {
+    "text": 0.75,
+    "linear": 0.125,
+    "mlp_ensemble": 0.125
+  },
+  "development_metrics": {
+    "accuracy": 94.11027526855469,
+    "correct": 751,
+    "n": 798,
+    "hard_accuracy": 86.76055908203125,
+    "hard_correct": 308,
+    "hard_n": 355
+  },
+  "search_configurations": 1,
+  "configuration": "runs/fusion/ensemble5/config.json",
+  "note": "All five members retained, mean raw logits followed by masked softmax. No test access. Root official scoring pending."
+}

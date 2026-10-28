@@ -1,0 +1,47 @@
+{
+  "split": "train",
+  "questions": 4755,
+  "correct_candidate_count": {
+    "1": 711,
+    "2": 732,
+    "3": 1070,
+    "4": 2242
+  },
+  "candidate_correct_percent_by_position": [
+    75.373291015625,
+    75.03680419921875,
+    75.79390716552734,
+    75.64668273925781
+  ],
+  "parsed_answer_count_patterns": {
+    "4": 2242,
+    "3+1": 885,
+    "2+1+1": 496,
+    "3": 328,
+    "2+2": 228,
+    "2+1": 188,
+    "1+1+1+1": 168,
+    "1+1+1": 112,
+    "2": 44,
+    "1+1": 37,
+    "1": 27
+  },
+  "unparseable_candidates": 871,
+  "text_characters": {
+    "mean": 480.19006309148267,
+    "median": 444.0,
+    "p10": 245.0,
+    "p90": 768.0,
+    "mean_correct": 464.8371072249704,
+    "mean_incorrect": 527.4068995071781
+  },
+  "heuristic_training_accuracy": {
+    "first": 75.373291015625,
+    "majority": 85.25762939453125,
+    "shortest": 70.34700775146484,
+    "longest": 77.7497329711914,
+    "majority_shortest": 84.05888366699219,
+    "shortest_valid": 74.59516906738281
+  },
+  "note": "Descriptive training-only observations; official validation and final acceptance belong to the root agent."
+}

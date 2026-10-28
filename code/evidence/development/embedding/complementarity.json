@@ -1,0 +1,72 @@
+{
+  "hard_n": 355,
+  "raw_vs_invalid_mask": {
+    "linear_listwise": {
+      "raw_full": 91.47869873046875,
+      "raw_hard": 81.69013977050781,
+      "masked_full": 91.97994995117188,
+      "masked_hard": 81.97183227539062,
+      "raw_invalid_selections": 4
+    },
+    "mlp64_raw": {
+      "raw_full": 91.35337829589844,
+      "raw_hard": 81.40845489501953,
+      "masked_full": 92.10526275634766,
+      "masked_hard": 82.25352478027344,
+      "raw_invalid_selections": 6
+    },
+    "mlp128_hard": {
+      "raw_full": 90.85212707519531,
+      "raw_hard": 82.53520965576172,
+      "masked_full": 92.481201171875,
+      "masked_hard": 83.09858703613281,
+      "raw_invalid_selections": 13
+    }
+  },
+  "pairwise": {
+    "linear_listwise+mlp64_raw": {
+      "hard_a_only_correct": 13,
+      "hard_b_only_correct": 12,
+      "hard_both_wrong": 53,
+      "hard_choice_disagreements": 69
+    },
+    "linear_listwise+mlp128_hard": {
+      "hard_a_only_correct": 15,
+      "hard_b_only_correct": 18,
+      "hard_both_wrong": 47,
+      "hard_choice_disagreements": 81
+    },
+    "mlp64_raw+mlp128_hard": {
+      "hard_a_only_correct": 19,
+      "hard_b_only_correct": 23,
+      "hard_both_wrong": 43,
+      "hard_choice_disagreements": 102
+    }
+  },
+  "simple_ensembles": {
+    "linear_listwise+mlp64_raw": {
+      "raw_full": 91.47869873046875,
+      "raw_hard": 81.69013977050781,
+      "masked_full": 91.97994995117188,
+      "masked_hard": 81.97183227539062
+    },
+    "linear_listwise+mlp128_hard": {
+      "raw_full": 90.85212707519531,
+      "raw_hard": 82.25352478027344,
+      "masked_full": 92.35588836669922,
+      "masked_hard": 82.81690216064453
+    },
+    "mlp64_raw+mlp128_hard": {
+      "raw_full": 90.47618865966797,
+      "raw_hard": 81.40845489501953,
+      "masked_full": 91.97994995117188,
+      "masked_hard": 81.97183227539062
+    },
+    "linear_listwise+mlp64_raw+mlp128_hard": {
+      "raw_full": 90.85212707519531,
+      "raw_hard": 81.69013977050781,
+      "masked_full": 91.97994995117188,
+      "masked_hard": 81.97183227539062
+    }
+  }
+}

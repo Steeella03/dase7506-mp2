@@ -1,0 +1,32 @@
+{
+  "name": "baseline-first",
+  "method": "methods\\baselines.py",
+  "checkpoint": "runs\\baseline\\first.json",
+  "split": "validation",
+  "accuracy": 78.19548872180451,
+  "correct": 624,
+  "n": 798,
+  "asset_bytes": 25,
+  "assets": [
+    {
+      "path": "runs\\baseline\\first.json",
+      "bytes_on_disk": 25,
+      "uncompressed_bytes_counted": 25,
+      "sha256": "a460038f14d3f7993aee65ff3f2be8cef147dbec689eedf4edc6eceb662870a1"
+    }
+  ],
+  "timings": [
+    {
+      "prediction_process_seconds": 0.45624310011044145,
+      "scoring_process_seconds": 0.3795826998539269,
+      "complete_seconds": 0.8358257999643683
+    }
+  ],
+  "threads": 4,
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "local_time_limit_pass": true,
+  "reference_cpu_eligibility": "Requires instructor reference-machine evaluation",
+  "recorded_at_utc": "2026-10-22T07:58:57Z"
+}

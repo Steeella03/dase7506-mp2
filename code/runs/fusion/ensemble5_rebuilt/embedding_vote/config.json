@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "pooling": "sum",
+  "pool_weight": 0.0,
+  "vote_weight": 0.1,
+  "components": [
+    {
+      "method": "embedding",
+      "checkpoint": "models/0-embedding-linear_listwise.npz",
+      "weight": 0.5,
+      "transform": "softmax",
+      "temperature": 1.0
+    },
+    {
+      "method": "embedding",
+      "checkpoints": [
+        "models/1-0-embedding-mlp128_hard.npz",
+        "models/1-1-embedding-mlp128_hard_s31.npz",
+        "models/1-2-embedding-mlp128_hard_s37.npz",
+        "models/1-3-embedding-mlp128_hard_s41.npz",
+        "models/1-4-embedding-mlp128_hard_s43.npz"
+      ],
+      "weight": 0.5,
+      "transform": "softmax",
+      "temperature": 1.0
+    }
+  ]
+}

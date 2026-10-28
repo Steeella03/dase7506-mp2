@@ -1,0 +1,44 @@
+{
+  "hypothesis": "Equal-weight averaging reduces sensitivity to random training seed.",
+  "selection": "All five predeclared seeds included, without member selection on validation.",
+  "aggregation": "Arithmetic mean of raw logits; invalid-answer mask reported separately.",
+  "members": [
+    {
+      "seed": 29,
+      "checkpoint": "runs/embedding/mlp128_hard.npz",
+      "weight": 0.2
+    },
+    {
+      "seed": 31,
+      "checkpoint": "runs/embedding/mlp128_hard_s31.npz",
+      "weight": 0.2
+    },
+    {
+      "seed": 37,
+      "checkpoint": "runs/embedding/mlp128_hard_s37.npz",
+      "weight": 0.2
+    },
+    {
+      "seed": 41,
+      "checkpoint": "runs/embedding/mlp128_hard_s41.npz",
+      "weight": 0.2
+    },
+    {
+      "seed": 43,
+      "checkpoint": "runs/embedding/mlp128_hard_s43.npz",
+      "weight": 0.2
+    }
+  ],
+  "validation_n": 798,
+  "hard_validation_n": 355,
+  "raw_validation_accuracy": 90.85212707519531,
+  "raw_hard_validation_accuracy": 82.53520965576172,
+  "masked_validation_accuracy": 92.73182678222656,
+  "masked_hard_validation_accuracy": 83.66197204589844,
+  "checkpoint_bytes": 5338620,
+  "new_member_training_seconds": 23.656020700465888,
+  "commands": [
+    "python -B training/train_ridge.py",
+    "python -B training/train_embedding.py --config runs/embedding/seed_ensemble_config.json"
+  ]
+}

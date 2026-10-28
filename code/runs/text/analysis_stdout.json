@@ -1,0 +1,87 @@
+[
+  {
+    "checkpoint": "runs\\text\\depth4\\model.npz",
+    "correct": 723,
+    "n": 798,
+    "accuracy": 90.6015037593985,
+    "hard_correct": 280,
+    "hard_n": 355,
+    "hard_accuracy": 78.87323943661971,
+    "valid_score_percentiles": [
+      -2.7708144187927246,
+      -0.8989470481872557,
+      0.14256542921066284,
+      0.5567233324050888,
+      2.059880018234253
+    ],
+    "asset_bytes": 28902
+  },
+  {
+    "checkpoint": "runs\\text\\full\\model.npz",
+    "correct": 725,
+    "n": 798,
+    "accuracy": 90.85213032581454,
+    "hard_correct": 282,
+    "hard_n": 355,
+    "hard_accuracy": 79.43661971830987,
+    "valid_score_percentiles": [
+      -3.0970664024353027,
+      -0.7673934936523437,
+      0.1530264914035797,
+      0.5235779881477356,
+      2.1186554431915283
+    ],
+    "asset_bytes": 17262
+  },
+  {
+    "checkpoint": "runs\\text\\linear\\model.npz",
+    "correct": 725,
+    "n": 798,
+    "accuracy": 90.85213032581454,
+    "hard_correct": 282,
+    "hard_n": 355,
+    "hard_accuracy": 79.43661971830987,
+    "valid_score_percentiles": [
+      -10.043168067932129,
+      -1.2426686525344848,
+      0.29486486315727234,
+      1.5805944442749011,
+      3.994694232940674
+    ],
+    "asset_bytes": 4608
+  },
+  {
+    "checkpoint": "runs\\text\\no_arithmetic\\model.npz",
+    "correct": 729,
+    "n": 798,
+    "accuracy": 91.35338345864662,
+    "hard_correct": 286,
+    "hard_n": 355,
+    "hard_accuracy": 80.56338028169014,
+    "valid_score_percentiles": [
+      -3.567009210586548,
+      -0.8770891845226285,
+      0.14819855988025665,
+      0.5331785082817078,
+      2.686739444732666
+    ],
+    "asset_bytes": 22614
+  },
+  {
+    "checkpoint": "runs\\text\\no_consensus\\model.npz",
+    "correct": 719,
+    "n": 798,
+    "accuracy": 90.1002506265664,
+    "hard_correct": 276,
+    "hard_n": 355,
+    "hard_accuracy": 77.74647887323944,
+    "valid_score_percentiles": [
+      -3.805635929107666,
+      -0.6642300248146057,
+      0.1427924782037735,
+      0.6097216486930845,
+      2.7625949382781982
+    ],
+    "asset_bytes": 27958
+  }
+]

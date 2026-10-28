@@ -1,0 +1,16 @@
+{
+  "embedding_training_configurations": 18,
+  "ridge_configurations": 4,
+  "text_configurations": 5,
+  "fusion_grid_configurations": 90,
+  "fixed_seed_ensemble_comparisons": 1,
+  "embedding_training_seconds_summed": 77.57654180005193,
+  "ridge_fit_and_shared_preprocessing_seconds": 1.4686466003768146,
+  "text_experiment_seconds_summed": 195.2136816000566,
+  "fusion_search_and_fixed_rebuild_seconds_summed": 6.741214599460363,
+  "fresh_final_training_seconds": 80.31465790001675,
+  "training_threads_per_process": 1,
+  "inference_threads_total": 4,
+  "gpu_used": false,
+  "note": "Sum of recorded process costs, not orchestration elapsed time. Some text experiments reuse deterministic input-only feature caches. Final reconstruction regenerates features and all weights."
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "pooling": "sum",
+  "pool_weight": 0.0,
+  "vote_weight": 0.0,
+  "components": [
+    {
+      "method": "embedding",
+      "checkpoint": "models/0-embedding-linear_listwise.npz",
+      "weight": 0.125,
+      "transform": "softmax",
+      "temperature": 1.0
+    },
+    {
+      "method": "embedding",
+      "checkpoint": "models/1-embedding-mlp64_raw.npz",
+      "weight": 0.125,
+      "transform": "softmax",
+      "temperature": 1.0
+    },
+    {
+      "method": "text",
+      "checkpoint": "models/2-text-model.npz",
+      "weight": 0.75,
+      "transform": "softmax",
+      "temperature": 1.0
+    }
+  ]
+}

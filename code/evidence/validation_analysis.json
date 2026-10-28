@@ -1,0 +1,430 @@
+{
+  "split": "validation",
+  "n": 798,
+  "hard_n": 355,
+  "hard_definition": "At least two distinct non-None official parsed answers",
+  "methods": [
+    {
+      "name": "baseline-first",
+      "accuracy": 78.19548872180451,
+      "hard_accuracy": 54.929577464788736,
+      "easy_accuracy": 96.83972911963883,
+      "hard_correct": 195,
+      "hard_n": 355,
+      "n": 798,
+      "asset_bytes": 25,
+      "complete_seconds": 0.8358257999643683
+    },
+    {
+      "name": "baseline-majority",
+      "accuracy": 86.21553884711778,
+      "hard_accuracy": 69.01408450704226,
+      "easy_accuracy": 100.0,
+      "hard_correct": 245,
+      "hard_n": 355,
+      "n": 798,
+      "asset_bytes": 0,
+      "complete_seconds": 0.8483074000105262
+    },
+    {
+      "name": "baseline-majority-shortest",
+      "accuracy": 84.46115288220551,
+      "hard_accuracy": 65.07042253521126,
+      "easy_accuracy": 100.0,
+      "hard_correct": 231,
+      "hard_n": 355,
+      "n": 798,
+      "asset_bytes": 37,
+      "complete_seconds": 0.8535352000035346
+    },
+    {
+      "name": "baseline-shortest",
+      "accuracy": 69.2982456140351,
+      "hard_accuracy": 37.74647887323944,
+      "easy_accuracy": 94.5823927765237,
+      "hard_correct": 134,
+      "hard_n": 355,
+      "n": 798,
+      "asset_bytes": 28,
+      "complete_seconds": 0.8221692997030914
+    },
+    {
+      "name": "embedding-hard",
+      "accuracy": 90.85213032581454,
+      "hard_accuracy": 82.53521126760563,
+      "easy_accuracy": 97.51693002257336,
+      "hard_correct": 293,
+      "hard_n": 355,
+      "n": 798,
+      "asset_bytes": 1067724,
+      "complete_seconds": 0.9527413002215326
+    },
+    {
+      "name": "embedding-linear-initial",
+      "accuracy": 91.47869674185463,
+      "hard_accuracy": 81.69014084507043,
+      "easy_accuracy": 99.32279909706546,
+      "hard_correct": 290,
+      "hard_n": 355,
+      "n": 798,
+      "asset_bytes": 13536,
+      "complete_seconds": 1.157644999679178
+    },
+    {
+      "name": "final-validation",
+      "accuracy": 94.11027568922306,
+      "hard_accuracy": 86.76056338028168,
+      "easy_accuracy": 100.0,
+      "hard_correct": 308,
+      "hard_n": 355,
+      "n": 798,
+      "asset_bytes": 5375667,
+      "complete_seconds": 3.197664199862629
+    },
+    {
+      "name": "fusion-embedding-only",
+      "accuracy": 92.35588972431079,
+      "hard_accuracy": 82.8169014084507,
+      "easy_accuracy": 100.0,
+      "hard_correct": 294,
+      "hard_n": 355,
+      "n": 798,
+      "asset_bytes": 1081750,
+      "complete_seconds": 0.9932790999300778
+    },
+    {
+      "name": "fusion-extra-votes",
+      "accuracy": 92.4812030075188,
+      "hard_accuracy": 83.09859154929578,
+      "easy_accuracy": 100.0,
+      "hard_correct": 295,
+      "hard_n": 355,
+      "n": 798,
+      "asset_bytes": 1081750,
+      "complete_seconds": 1.0016650999896228
+    },
+    {
+      "name": "fusion-initial",
+      "accuracy": 93.10776942355889,
+      "hard_accuracy": 84.50704225352112,
+      "easy_accuracy": 100.0,
+      "hard_correct": 300,
+      "hard_n": 355,
+      "n": 798,
+      "asset_bytes": 304026,
+      "complete_seconds": 2.608375799842179
+    },
+    {
+      "name": "fusion-second",
+      "accuracy": 93.85964912280701,
+      "hard_accuracy": 86.19718309859155,
+      "easy_accuracy": 100.0,
+      "hard_correct": 306,
+      "hard_n": 355,
+      "n": 798,
+      "asset_bytes": 1104536,
+      "complete_seconds": 2.6458160001784563
+    },
+    {
+      "name": "text-full-initial",
+      "accuracy": 90.85213032581454,
+      "hard_accuracy": 79.43661971830987,
+      "easy_accuracy": 100.0,
+      "hard_correct": 282,
+      "hard_n": 355,
+      "n": 798,
+      "asset_bytes": 17262,
+      "complete_seconds": 2.770365800242871
+    },
+    {
+      "name": "text-no-arithmetic",
+      "accuracy": 91.35338345864662,
+      "hard_accuracy": 80.56338028169014,
+      "easy_accuracy": 100.0,
+      "hard_correct": 286,
+      "hard_n": 355,
+      "n": 798,
+      "asset_bytes": 22614,
+      "complete_seconds": 2.5944190002046525
+    },
+    {
+      "name": "text-no-consensus",
+      "accuracy": 90.1002506265664,
+      "hard_accuracy": 77.74647887323944,
+      "easy_accuracy": 100.0,
+      "hard_correct": 276,
+      "hard_n": 355,
+      "n": 798,
+      "asset_bytes": 27958,
+      "complete_seconds": 2.6729236003011465
+    }
+  ],
+  "uncertainty_note": "Answer-group probability mass is a diagnostic, not a calibrated correctness probability.",
+  "confidence_source": "Already-normalized masked component softmax mixture",
+  "paired_vs_majority": {
+    "both_correct": 674,
+    "only_final_correct": 77,
+    "only_majority_correct": 14,
+    "both_wrong": 33,
+    "gain_percentage_points": 7.894736842105263,
+    "paired_bootstrap_95_percent_interval": [
+      5.764411027568922,
+      10.275689223057643
+    ]
+  },
+  "selected_method": "submission.py",
+  "confidence": {
+    "ece": 0.05914828666562407,
+    "brier_score": 0.05776214326453959,
+    "bins": [
+      {
+        "lower": 0.2,
+        "n": 1,
+        "mean_confidence": 0.2948143797411634,
+        "accuracy": 1.0
+      },
+      {
+        "lower": 0.3,
+        "n": 28,
+        "mean_confidence": 0.3631315296384091,
+        "accuracy": 0.6785714285714286
+      },
+      {
+        "lower": 0.4,
+        "n": 27,
+        "mean_confidence": 0.4535150499162451,
+        "accuracy": 0.7777777777777778
+      },
+      {
+        "lower": 0.5,
+        "n": 32,
+        "mean_confidence": 0.5570334648427703,
+        "accuracy": 0.71875
+      },
+      {
+        "lower": 0.6,
+        "n": 45,
+        "mean_confidence": 0.6442704092706047,
+        "accuracy": 0.8222222222222222
+      },
+      {
+        "lower": 0.7,
+        "n": 63,
+        "mean_confidence": 0.7487962417131377,
+        "accuracy": 0.8412698412698413
+      },
+      {
+        "lower": 0.8,
+        "n": 67,
+        "mean_confidence": 0.8534819535906543,
+        "accuracy": 0.9253731343283582
+      },
+      {
+        "lower": 0.9,
+        "n": 535,
+        "mean_confidence": 0.990500131351083,
+        "accuracy": 1.0
+      }
+    ]
+  },
+  "confidence_hard_subset": {
+    "ece": 0.13295868382864212,
+    "brier_score": 0.12984278964817628,
+    "bins": [
+      {
+        "lower": 0.2,
+        "n": 1,
+        "mean_confidence": 0.2948143797411634,
+        "accuracy": 1.0
+      },
+      {
+        "lower": 0.3,
+        "n": 28,
+        "mean_confidence": 0.3631315296384091,
+        "accuracy": 0.6785714285714286
+      },
+      {
+        "lower": 0.4,
+        "n": 27,
+        "mean_confidence": 0.4535150499162451,
+        "accuracy": 0.7777777777777778
+      },
+      {
+        "lower": 0.5,
+        "n": 32,
+        "mean_confidence": 0.5570334648427703,
+        "accuracy": 0.71875
+      },
+      {
+        "lower": 0.6,
+        "n": 45,
+        "mean_confidence": 0.6442704092706047,
+        "accuracy": 0.8222222222222222
+      },
+      {
+        "lower": 0.7,
+        "n": 63,
+        "mean_confidence": 0.7487962417131377,
+        "accuracy": 0.8412698412698413
+      },
+      {
+        "lower": 0.8,
+        "n": 67,
+        "mean_confidence": 0.8534819535906543,
+        "accuracy": 0.9253731343283582
+      },
+      {
+        "lower": 0.9,
+        "n": 92,
+        "mean_confidence": 0.9447561986177113,
+        "accuracy": 1.0
+      }
+    ]
+  },
+  "risk_coverage": [
+    {
+      "coverage": 0.2506265664160401,
+      "n": 200,
+      "accuracy": 100.0
+    },
+    {
+      "coverage": 0.5,
+      "n": 399,
+      "accuracy": 100.0
+    },
+    {
+      "coverage": 0.7506265664160401,
+      "n": 599,
+      "accuracy": 99.1652754590985
+    },
+    {
+      "coverage": 1.0,
+      "n": 798,
+      "accuracy": 94.11027568922306
+    }
+  ],
+  "validation_error_examples": [
+    {
+      "validation_id": "gsm8k:4ba7df16b233b5dfee1e33cd5aacce9ff23be68fae0e800100b1d5652abc2ab6",
+      "question": "John takes 3 naps a week.  Each nap is 2 hours long.  In 70 days how many hours of naps does he take?",
+      "selected": 1,
+      "candidate_answers": [
+        "60",
+        "420",
+        "420",
+        "60"
+      ],
+      "correct_candidates": [
+        0,
+        3
+      ],
+      "group_mass": 0.5065794400705761
+    },
+    {
+      "validation_id": "gsm8k:743f8c6ead126726bf3d1957c6a5c5f79d9b748847a04b3a7695dbe63c7f1007",
+      "question": "Grace baked 4 whole pumpkin pies. She sold 1 whole pumpkin pie and gave 1 whole pumpkin pie to her friend. The remaining whole pumpkin pies were each sliced into 6 pieces. Her family ate 2/3 pieces. How many pieces of pumpkin pie were left?",
+      "selected": 0,
+      "candidate_answers": [
+        "6",
+        "4",
+        "2",
+        "4"
+      ],
+      "correct_candidates": [
+        1,
+        3
+      ],
+      "group_mass": 0.32575727512589026
+    },
+    {
+      "validation_id": "gsm8k:a43ceff49caf15e088df74a262ff9e052dd2007849dae692d80b5056583ef20f",
+      "question": "Yun had 20 paperclips initially, but then lost 12. Marion has 1/4 more than what Yun currently has, plus 7. How many paperclips does Marion have?",
+      "selected": 3,
+      "candidate_answers": [
+        "9",
+        "17",
+        "17",
+        "17"
+      ],
+      "correct_candidates": [
+        0
+      ],
+      "group_mass": 0.8926388252485491
+    },
+    {
+      "validation_id": "gsm8k:02e6a3586d4118e71421fdc68390a128f9deffd2e36cf200f9d29105c4e0e3e0",
+      "question": "Three different 6th grade classes are combining for a square dancing unit.  If possible, the teachers would like each male student to partner with a female student for the unit.  The first class has 17 males and 13 females, while the second class has 14 males and 18 females, and the third class has 15 males and 17 females.  When the classes are combined, how many students will be unable to partner with a student of the opposite gender?",
+      "selected": 0,
+      "candidate_answers": [
+        "48",
+        "48",
+        "45",
+        "2"
+      ],
+      "correct_candidates": [
+        3
+      ],
+      "group_mass": 0.5435343470381437
+    },
+    {
+      "validation_id": "gsm8k:d41771a33607bdaf7b3e00726d01e899fdd0d6e8b013369a93bcc90248c0c46b",
+      "question": "Tom buys 20 shares of a stock that costs $3 each.  He sells 10 of those shares for $4 each.  The rest of the shares end up doubling in value.  How much profit does he make?",
+      "selected": 0,
+      "candidate_answers": [
+        "100",
+        "80",
+        "40",
+        "100"
+      ],
+      "correct_candidates": [
+        2
+      ],
+      "group_mass": 0.5861271333088478
+    },
+    {
+      "validation_id": "gsm8k:9bb5fbe86fef3370a75fd8d35c55e52bb22a8726cfeacedb042e6f1ae65222d8",
+      "question": "Erik's dog can run 24 miles per hour. It is chasing a rabbit that can run 15 miles per hour. The rabbit has a head start of .6 miles. How many minutes does it take for the dog to catch up to the rabbit?",
+      "selected": 2,
+      "candidate_answers": [
+        "8",
+        "4",
+        "8",
+        "8"
+      ],
+      "correct_candidates": [
+        1
+      ],
+      "group_mass": 0.8702551235367765
+    },
+    {
+      "validation_id": "gsm8k:a5296009775135e3b0626a1f4a24ed920c33e4a7052c18add2e5a3e43a5557cf",
+      "question": "A snail kite is a kind of bird that eats apple snails. On the first day, a snail kite ate 3 snails. Then it eats 2 more snails than it did the day before. How many apple snails in all did a snail kite eat for 5 days?",
+      "selected": 3,
+      "candidate_answers": [
+        "31",
+        "36",
+        "35",
+        "36"
+      ],
+      "correct_candidates": [
+        2
+      ],
+      "group_mass": 0.655590354905533
+    },
+    {
+      "validation_id": "gsm8k:d6a8fbf8728cec1b7e77b51e1121a769e7d91903bd79516ba5c0483dac297fa3",
+      "question": "A football club has a balance of $100 million. The club then sells 2 of its players at $10 million each, and buys 4 more at $15 million each. How much money is left in the club register in millions of dollars?",
+      "selected": 2,
+      "candidate_answers": [
+        "20",
+        "60",
+        "20",
+        "20"
+      ],
+      "correct_candidates": [
+        1
+      ],
+      "group_mass": 0.8207230439127856
+    }
+  ]
+}

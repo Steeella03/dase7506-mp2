@@ -1,0 +1,32 @@
+{
+  "name": "baseline-shortest",
+  "method": "methods\\baselines.py",
+  "checkpoint": "runs\\baseline\\shortest.json",
+  "split": "validation",
+  "accuracy": 69.29824561403508,
+  "correct": 553,
+  "n": 798,
+  "asset_bytes": 28,
+  "assets": [
+    {
+      "path": "runs\\baseline\\shortest.json",
+      "bytes_on_disk": 28,
+      "uncompressed_bytes_counted": 28,
+      "sha256": "3c4629f93eb391e123a99d90778e9fe5914da46a99edcd61a842c5dc4629f1a3"
+    }
+  ],
+  "timings": [
+    {
+      "prediction_process_seconds": 0.45184340002015233,
+      "scoring_process_seconds": 0.37032589968293905,
+      "complete_seconds": 0.8221692997030914
+    }
+  ],
+  "threads": 4,
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "local_time_limit_pass": true,
+  "reference_cpu_eligibility": "Requires instructor reference-machine evaluation",
+  "recorded_at_utc": "2026-10-22T07:59:01Z"
+}

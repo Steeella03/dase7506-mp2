@@ -1,0 +1,21 @@
+{
+  "name": "ridge_centered_0p1",
+  "alpha": 0.1,
+  "seed": null,
+  "feature_mode": "raw",
+  "objective": "mean_squared_error_of_group_centered_targets_and_embeddings",
+  "validation_accuracy": 91.10275268554688,
+  "hard_validation_accuracy": 81.69013977050781,
+  "hard_validation_n": 355,
+  "fit_and_validation_seconds": 0.033862399868667126,
+  "shared_preprocessing_seconds": 1.323940200265497,
+  "checkpoint": "runs\\embedding\\ridge_centered_0p1.npz",
+  "asset_bytes": 13795,
+  "numpy_version": "2.5.3",
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "command": "python -B training/train_ridge.py"
+}

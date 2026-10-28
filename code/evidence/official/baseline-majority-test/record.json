@@ -1,0 +1,25 @@
+{
+  "name": "baseline-majority-test",
+  "method": "methods\\baselines.py",
+  "checkpoint": "None",
+  "split": "test",
+  "accuracy": 69.16488222698072,
+  "correct": 323,
+  "n": 467,
+  "asset_bytes": 0,
+  "assets": [],
+  "timings": [
+    {
+      "prediction_process_seconds": 0.39481860026717186,
+      "scoring_process_seconds": 0.3311328999698162,
+      "complete_seconds": 0.7259515002369881
+    }
+  ],
+  "threads": 4,
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "local_time_limit_pass": true,
+  "reference_cpu_eligibility": "Requires instructor reference-machine evaluation",
+  "recorded_at_utc": "2026-10-22T08:11:52Z"
+}

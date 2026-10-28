@@ -1,0 +1,9 @@
+{
+  "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "logical_cpus": 12,
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14",
+  "training_device": "CPU",
+  "gpu_used": false,
+  "physical_ram_gib": 15.73
+}

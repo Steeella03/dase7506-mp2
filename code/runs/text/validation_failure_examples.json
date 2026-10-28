@@ -1,0 +1,173 @@
+[
+  {
+    "id": "gsm8k:4ba7df16b233b5dfee1e33cd5aacce9ff23be68fae0e800100b1d5652abc2ab6",
+    "question": "John takes 3 naps a week.  Each nap is 2 hours long.  In 70 days how many hours of naps does he take?",
+    "selected": 1,
+    "correct_candidates": [
+      0,
+      3
+    ],
+    "correct_final_answer": "60",
+    "parsed_answers": [
+      "60",
+      "420",
+      "420",
+      "60"
+    ],
+    "answer_votes": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "scores": [
+      -0.07795616239309311,
+      0.415302574634552,
+      -0.2799872159957886,
+      0.06061059981584549
+    ],
+    "candidate_texts": [
+      "John takes **3 naps a week** and each nap is **2 hours long**.\n\n### Step 1: Calculate the total hours of naps per week  \n$$\n3 \\text{ naps/week} \\times 2 \\text{ hours/nap} = 6 \\text{ hours/week}\n$$\n\n### Step 2: Calculate the total hours of naps in 70 days  \nSince there are **7 days in a week**, we divide the weekly naps by 7:\n\n$$\n\\frac{6 \\text{ hours/week}}{7 \\text{ days/week}} \\times 70 \\text{ days} = 60 \\text{ hours}\n$$\n\n### Final Answer:\n$$\n\\boxed{60}\n$$",
+      "John takes 3 naps a week, and each nap is 2 hours long. In 70 days, how many hours of naps does he take?\n\n1. **Number of naps per week**: 3  \n2. **Hours per nap**: 2  \n3. **Total hours per week**: $ 3 \\times 2 = 6 $ hours  \n4. **Total days**: 70  \n5. **Total hours in 70 days**: $ 6 \\times 70 = 420 $ hours\n\n### Final Answer:\n#### <numeric answer> 420",
+      "John takes **3 naps a week** and each nap is **2 hours long**.  \n\nIn **70 days**, the total number of naps is:  \n$$ 3 \\text{ naps/week} \\times 70 \\text{ days} = 210 \\text{ naps} $$\n\nEach nap is **2 hours**, so the total hours of naps is:  \n$$ 210 \\text{ naps} \\times 2 \\text{ hours/nap} = 420 \\text{ hours} $$\n\n### Final Answer:\n$$ \\boxed{420} $$",
+      "John takes **3 naps a week** and each nap is **2 hours long**. We need to find out how many hours of naps he takes in **70 days**.\n\n- 3 naps per week × 2 hours per nap = **6 hours per week**\n- In 70 days, we can calculate the total hours as:\n\n$$\n6 \\text{ hours/week} \\times \\frac{70}{7} = 6 \\times 10 = 60 \\text{ hours}\n$$\n\n### Final Answer:\n$$\n\\boxed{60}\n$$"
+    ],
+    "observation": "The selected final answer is wrong under the fixed numeric scorer. Full reasoning validity was not automatically assessed."
+  },
+  {
+    "id": "gsm8k:a43ceff49caf15e088df74a262ff9e052dd2007849dae692d80b5056583ef20f",
+    "question": "Yun had 20 paperclips initially, but then lost 12. Marion has 1/4 more than what Yun currently has, plus 7. How many paperclips does Marion have?",
+    "selected": 3,
+    "correct_candidates": [
+      0
+    ],
+    "correct_final_answer": "9",
+    "parsed_answers": [
+      "9",
+      "17",
+      "17",
+      "17"
+    ],
+    "answer_votes": [
+      1,
+      3,
+      3,
+      3
+    ],
+    "scores": [
+      -0.5145392417907715,
+      0.3592144250869751,
+      0.34134921431541443,
+      0.3843221962451935
+    ],
+    "candidate_texts": [
+      "We are given the following information:\n\n- Yun had **20 paperclips initially**.\n- Yun **lost 12**, so Yun now has:  \n  $$\n  20 - 12 = 8 \\text{ paperclips}\n  $$\n\n- Marion has:  \n  $$\n  \\frac{1}{4} \\text{ more than what Yun currently has, plus } 7\n  $$  \n  So,  \n  $$\n  \\frac{1}{4} \\times 8 + 7 = 2 + 7 = 9\n  $$\n\n### Final Answer:\n$$\n\\boxed{9}\n$$",
+      "Yun had 20 paperclips initially, then lost 12. So, he currently has:\n\n$$\n20 - 12 = 8 \\text{ paperclips}\n$$\n\nMarion has:\n\n$$\n\\frac{1}{4} \\text{ more than what Yun currently has, plus 7}\n$$\n\nSo, Marion has:\n\n$$\n8 + \\frac{1}{4} \\times 8 + 7 = 8 + 2 + 7 = 17 \\text{ paperclips}\n$$\n\n### Final Answer:\n$$\n\\boxed{17}\n$$",
+      "We are given:\n\n- Yun had **20** paperclips initially.\n- Yun **lost 12**, so he now has:  \n  $ 20 - 12 = 8 $ paperclips.\n\nMarion has:  \n$ \\frac{1}{4} \\text{ more than what Yun currently has, plus } 7 $.\n\nSo:  \nMarion has:  \n$ 8 + \\frac{1}{4} \\times 8 + 7 = 8 + 2 + 7 = 17 $ paperclips.\n\n### Final Answer:\n#### <numeric answer> 17.",
+      "We are given the following:\n\n- Yun had **20 paperclips** initially.\n- Then lost **12**, so **Yun currently has** $ 20 - 12 = 8 $ paperclips.\n\n- Marion has **$ \\frac{1}{4} $ more than what Yun currently has, plus 7**.\n\nSo, we calculate:\n\n$$\n\\text{Marion's paperclips} = 8 + \\left( \\frac{1}{4} \\times 8 \\right) + 7\n$$\n\n$$\n= 8 + 2 + 7 = 17\n$$\n\n### Final Answer:\n$$\n\\boxed{17}\n$$"
+    ],
+    "observation": "The selected final answer is wrong under the fixed numeric scorer. Full reasoning validity was not automatically assessed."
+  },
+  {
+    "id": "gsm8k:71405c5e3fe9595dd29773dfb06725b8c2be9cf7735b679d447ad371bab3f3c8",
+    "question": "Martha is making centerpieces for her Thanksgiving dinner. There are six centerpieces, and each centerpiece uses 8 roses, twice as many orchids as roses, and a certain number of lilies. If Martha wants to spend $2700 total, and each flower costs $15, how many lilies will she put in each centerpiece?",
+    "selected": 2,
+    "correct_candidates": [
+      0
+    ],
+    "correct_final_answer": "6",
+    "parsed_answers": [
+      "6",
+      "426",
+      "164",
+      null
+    ],
+    "answer_votes": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "scores": [
+      0.16162388026714325,
+      -0.29486480355262756,
+      0.352154940366745,
+      -1000000.0
+    ],
+    "candidate_texts": [
+      "We are told:\n\n- There are **6 centerpieces**.\n- Each centerpiece uses:\n  - 8 roses,\n  - 2 times as many orchids as roses → $2 \\times 8 = 16$ orchids,\n  - $x$ lilies.\n- Total cost is $2700, and each flower costs $15.\n\n### Step 1: Find the cost of one centerpiece\n\nEach centerpiece uses:\n- 8 roses = $8 \\times 15 = 120$\n- 16 orchids = $16 \\times 15 = 240$\n- $x$ lilies = $15x$\n\nSo, the total cost of one centerpiece is:\n$$\n120 + 240 + 15x = 360 + 15x\n$$\n\n### Step 2: Find the total cost for all 6 centerpieces\n\n$$\n6 \\times (360 + 15x) = 2160 + 90x\n$$\n\nSet this equal to $2700:\n$$\n2160 + 90x = 2700\n$$\n\n### Step 3: Solve for $x$\n\n$$\n90x = 2700 - 2160 = 540\n$$\n\n$$\nx = \\frac{540}{90} = 6\n$$\n\n### Final Answer:\n\n$$\n\\boxed{6}\n$$",
+      "We are told:\n\n- Each **centerpiece** has:\n  - 8 roses,\n  - 2 times as many orchids as roses → 16 orchids,\n  - a certain number of lilies.\n\n- Martha wants to spend **$2700** in total.\n\n- Each flower costs **$15**.\n\nLet’s solve step by step:\n\n### Step 1: Find the total cost per centerpiece\n\nEach centerpiece has:\n- Roses: 8\n- Orchids: 16\n- Lilies: Let’s call this number $ x $\n\nTotal cost per centerpiece:  \n$$\n8 + 16 + x = 24 + x\n$$\n\n### Step 2: Set up the total cost equation\n\nMartha wants to spend $2700 in total. Since she has 6 centerpieces, the total cost is:\n\n$$\n6 \\times (24 + x) = 2700\n$$\n\n### Step 3: Solve for $ x $\n\n$$\n6(24 + x) = 2700 \\\\\n24 + x = \\frac{2700}{6} = 450 \\\\\nx = 450 - 24 = 426\n$$\n\n### Final Answer:\n\n$$\n\\boxed{426}\n$$",
+      "We are told:\n\n- Each centerpiece uses **8 roses**.\n- Each centerpiece uses **twice as many orchids as roses**, so **8 orchids**.\n- Each centerpiece uses **$x$ lilies**.\n- Martha wants to spend **$2700** in total.\n- Each flower costs **$15**.\n\n### Step 1: Find the cost of one centerpiece\n\n- Roses: $8 \\times 15 = 120$\n- Orchids: $8 \\times 15 = 120$\n- Lilies: $x \\times 15 = 15x$\n\nSo, the cost of one centerpiece is:\n$$\n120 + 120 + 15x = 240 + 15x\n$$\n\n### Step 2: Set up the equation\n\nMartha wants to spend **$2700** in total. So:\n$$\n(240 + 15x) \\times 1 = 2700\n$$\n\n$$\n240 + 15x = 2700\n$$\n\n### Step 3: Solve for $x$\n\n$$\n15x = 2700 - 240 = 2460\n$$\n\n$$\nx = \\frac{2460}{15} = 164\n$$\n\n### Final Answer:\n\n$$\n\\boxed{164}\n$$",
+      "We are given:\n\n- There are **6 centerpieces**.\n- Each centerpiece uses **8 roses**, **twice as many orchids as roses**, and a **certain number of lilies**.\n- Total cost is **$2700**.\n- Each flower costs **$15**.\n- We are to find how many **lilies** are used in each centerpiece.\n\n---\n\n### Step 1: Find the cost of roses in one centerpiece\n\n- Roses: 8  \n- Cost per flower: $15  \n- Cost of roses in one centerpiece:  \n  $$\n  8 \\times 15 = 120\n  $$\n\n---\n\n### Step 2: Find the cost of orchids in one centerpiece\n\n- Orchids: twice as many as roses  \n  $$\n  2 \\times 8 = 16\n  $$\n\n---\n\n### Step 3: Let $ x $ be the number of lilies in one centerpiece\n\n- Total cost of all flowers in one centerpiece:  \n  $$\n  120 + 16x + 15x = 136x + 120\n  $$\n\n---\n\n### Step 4: Total cost for all 6 centerpieces\n\n$$\n6 \\times (136x + 120) = 816x + 720 = 2700\n$$\n\n---\n\n### Step 5: Solve for $ x $\n\n$$\n816x = 2700 - 720 = 1980\n$$\n$$\nx = \\frac{1980}{816} = 2.44\n$$\n\nBut this is **not an integer**, which suggests that **there may be a mistake in the setup**.\n\nLet"
+    ],
+    "observation": "The selected final answer is wrong under the fixed numeric scorer. Full reasoning validity was not automatically assessed."
+  },
+  {
+    "id": "gsm8k:02e6a3586d4118e71421fdc68390a128f9deffd2e36cf200f9d29105c4e0e3e0",
+    "question": "Three different 6th grade classes are combining for a square dancing unit.  If possible, the teachers would like each male student to partner with a female student for the unit.  The first class has 17 males and 13 females, while the second class has 14 males and 18 females, and the third class has 15 males and 17 females.  When the classes are combined, how many students will be unable to partner with a student of the opposite gender?",
+    "selected": 2,
+    "correct_candidates": [
+      3
+    ],
+    "correct_final_answer": "2",
+    "parsed_answers": [
+      "48",
+      "48",
+      "45",
+      "2"
+    ],
+    "answer_votes": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "scores": [
+      0.040206585079431534,
+      -0.016910865902900696,
+      0.5069395303726196,
+      -0.5769445300102234
+    ],
+    "candidate_texts": [
+      "We are told that each male student must partner with a female student, and we need to find how many students **cannot** partner with a student of the opposite gender when all three classes are combined.\n\n### Step 1: Total number of students\n\n- **Class 1:** 17 males + 13 females = 30 students  \n- **Class 2:** 14 males + 18 females = 32 students  \n- **Class 3:** 15 males + 17 females = 32 students  \n\n**Total students = 30 + 32 + 32 = 94 students**\n\n---\n\n### Step 2: Total number of possible pairings\n\n- Each student must pair with exactly one student of the opposite gender.  \n- So, the total number of possible pairings is the **minimum** of the total number of males and females, since we can't pair more than one person with each gender.\n\n- **Males: 17 + 14 + 15 = 46**  \n- **Females: 13 + 18 + 17 = 48**\n\nSo, the **maximum number of possible pairings** is **46** (the number of males).\n\n---\n\n### Step 3: Find how many students are unable to partner\n\nWe subtract the number of students who can partner from the total number of students:\n\n$$\n94 - 46 = 48\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{48}\n$$",
+      "We are given the number of males and females in each class:\n\n- **Class 1**: 17 males, 13 females  \n- **Class 2**: 14 males, 18 females  \n- **Class 3**: 15 males, 17 females  \n\nWe are told that **each male student should partner with a female student** for the unit, and we are to find how many **students will be unable to partner with a student of the opposite gender**.\n\n### Step 1: Total number of students\n\n- **Males**: $17 + 14 + 15 = 46$\n- **Females**: $13 + 18 + 17 = 48$\n\nSo, **total students = 46 + 48 = 94**\n\n### Step 2: Total number of possible partnerings\n\nEach male student can partner with **1 female**. Since there are 46 males, the maximum number of possible partnerings is:\n\n$$\n\\text{Maximum partnerings} = 46 \\times 1 = 46\n$$\n\n### Step 3: Number of students who **cannot partner**  \nWe subtract the number of students who can partner from the total number of students:\n\n$$\n\\text{Students who cannot partner} = 94 - 46 = \\boxed{48}\n$$\n\n### ✅ Final Answer: **48**",
+      "We are given:\n\n- **Class 1**: 17 males, 13 females  \n- **Class 2**: 14 males, 18 females  \n- **Class 3**: 15 males, 17 females  \n\nWe need to find how many students **cannot partner with a student of the opposite gender** when all students are combined.\n\n### Step 1: Total number of students\n$$\n17 + 14 + 15 + 13 + 18 + 17 = 94 \\text{ students}\n$$\n\n### Step 2: Total number of pairs (opposite gender)\n\nTo form a valid pairing, each student must partner with someone of the opposite gender. So, we need to pair **13 + 14 + 15** = **42 students** in total (since each male is paired with a female, and each female is paired with a male).\n\n### Step 3: Total number of students who can partner with someone of the opposite gender\n\n- 13 females = 13 students who can partner  \n- 14 males = 14 students who can partner  \n- 15 males = 15 students who can partner  \n- 17 females = 17 students who can partner  \n- 18 females = 18 students who can partner  \n\nSo, total students who can partner:  \n$$\n13 + 14 + 15 + 17 + 18 = 87 \\text{ students}\n$$\n\n### Step 4: Number of students who **cannot** partner with someone of the opposite gender\n\n$$\n87 - 42 = 45\n$$\n\n### ✅ Final Answer:\n\n$$\n\\boxed{45}\n$$",
+      "We are told that:\n\n- **Class A**: 17 males, 13 females  \n- **Class B**: 14 males, 18 females  \n- **Class C**: 15 males, 17 females  \n\nWe need to determine how many students **cannot partner with a student of the opposite gender** when all three classes are combined.\n\n---\n\n### Step 1: Total number of students\n\n$$\n17 + 14 + 15 = 46 \\text{ students}\n$$\n\n$$\n13 + 18 + 17 = 48 \\text{ students}\n$$\n\nSo, **48 students** are in total.\n\n---\n\n### Step 2: Partnering\n\nWe need to pair **male students** with **female students**, and vice versa. So:\n\n- Total male students = 17 + 14 + 15 = **46**\n- Total female students = 13 + 18 + 17 = **48**\n\nSince each male student must partner with one female student, and each female student can partner with one male student, the maximum number of valid pairings is the minimum of the total male and female students.\n\nSo, the **maximum number of students who can partner** is:\n\n$$\n\\min(46, 48) = 46\n$$\n\nThis means **46 students** can partner with a student of the opposite gender.\n\n---\n\n### Step 3: Number of students who cannot partner\n\n$$\n48 - 46 = 2\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{2}\n$$"
+    ],
+    "observation": "The selected final answer is wrong under the fixed numeric scorer. Full reasoning validity was not automatically assessed."
+  },
+  {
+    "id": "gsm8k:d41771a33607bdaf7b3e00726d01e899fdd0d6e8b013369a93bcc90248c0c46b",
+    "question": "Tom buys 20 shares of a stock that costs $3 each.  He sells 10 of those shares for $4 each.  The rest of the shares end up doubling in value.  How much profit does he make?",
+    "selected": 0,
+    "correct_candidates": [
+      2
+    ],
+    "correct_final_answer": "40",
+    "parsed_answers": [
+      "100",
+      "80",
+      "40",
+      "100"
+    ],
+    "answer_votes": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "scores": [
+      0.35692667961120605,
+      -0.31648337841033936,
+      -0.6760807037353516,
+      0.21960042417049408
+    ],
+    "candidate_texts": [
+      "We are given:\n\n- Tom buys **20 shares** of a stock that costs **$3 each**.\n- He sells **10 shares** for **$4 each**.\n- The remaining **10 shares** double in value.\n\n---\n\n### Step 1: Calculate the profit from selling the 10 shares\n\n- Each share sells for **$4**, so:\n  $$\n  10 \\times 4 = 40 \\text{ dollars}\n  $$\n\n---\n\n### Step 2: Calculate the profit from the remaining 10 shares\n\n- Each share doubles in value, so the total value is:\n  $$\n  10 \\times 3 \\times 2 = 60 \\text{ dollars}\n  $$\n\n---\n\n### Step 3: Total profit\n\n- Profit from the 10 shares: **$40**\n- Profit from the remaining 10 shares: **$60**\n- Total profit:\n  $$\n  40 + 60 = \\boxed{100}\n  $$\n\n---\n\n### ✅ Final Answer:\n#### **$100**.",
+      "Tom buys 20 shares at $3 each, so the total cost is:\n\n$$\n20 \\times 3 = 60 \\text{ dollars}\n$$\n\nHe sells 10 shares at $4 each, so the proceeds are:\n\n$$\n10 \\times 4 = 40 \\text{ dollars}\n$$\n\nThe remaining 10 shares end up doubling in value, so their value becomes:\n\n$$\n10 \\times 3 \\times 2 = 60 \\text{ dollars}\n$$\n\nNow, calculate the total profit:\n\n$$\n\\text{Profit} = \\text{Total Cost} - \\text{Total Sale} + \\text{Value of Doubled Shares}\n$$\n\n$$\n\\text{Profit} = 60 - 40 + 60 = 80 \\text{ dollars}\n$$\n\n### Final Answer:\n$$\n\\boxed{80}\n$$",
+      "Tom buys 20 shares of a stock that costs $3 each, so the total cost is:\n\n$$\n20 \\times 3 = 60 \\text{ dollars}\n$$\n\nHe sells 10 shares for $4 each, so the proceeds from the sale are:\n\n$$\n10 \\times 4 = 40 \\text{ dollars}\n$$\n\nThe remaining shares (10 shares) end up doubling in value. Let’s assume the price doubles to $6 each. Then the value of the remaining 10 shares is:\n\n$$\n10 \\times 6 = 60 \\text{ dollars}\n$$\n\nNow, calculate his total profit:\n\n$$\n\\text{Total profit} = \\text{Sale proceeds} + \\text{Value of remaining shares} - \\text{Original cost}\n$$\n$$\n= 40 + 60 - 60 = 40 \\text{ dollars}\n$$\n\n### Final Answer:\n$$\n\\boxed{40}\n$$",
+      "We are given:\n\n- Tom buys **20 shares** at **$3 each**, for a total of **$60**.\n- He sells **10 shares** at **$4 each**, for a total of **$40**.\n- The **remaining 10 shares** double in value, so they now cost **$3 × 2 = $6 each**.\n\nNow calculate the total profit:\n\n- Total profit = (Selling price - Cost price) × number of shares sold  \n  = ($40 - $30) × 10  \n  = $10 × 10  \n  = **$100**\n\n### Final Answer:\n#### $100."
+    ],
+    "observation": "The selected final answer is wrong under the fixed numeric scorer. Full reasoning validity was not automatically assessed."
+  }
+]

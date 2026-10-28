@@ -1,0 +1,11 @@
+[
+  {"name":"linear_listwise_pure", "mode":"raw", "hidden":0, "loss":"listwise", "seed":17, "lr":0.002, "selection":"hard", "l2":0.001},
+  {"name":"linear_hard", "mode":"raw", "hidden":0, "loss":"hybrid", "seed":17, "lr":0.002, "selection":"hard", "hard_training":true, "l2":0.001},
+  {"name":"linear_l2strong", "mode":"raw", "hidden":0, "loss":"hybrid", "seed":29, "lr":0.002, "selection":"hard", "l2":0.01},
+  {"name":"mlp64_regularized", "mode":"raw", "hidden":64, "loss":"hybrid", "seed":41, "selection":"hard", "l2":0.01, "dropout":0.3},
+  {"name":"mlp64_pure", "mode":"raw", "hidden":64, "loss":"listwise", "seed":29, "selection":"hard", "l2":0.005, "dropout":0.3},
+  {"name":"mlp128_regularized", "mode":"raw", "hidden":128, "loss":"hybrid", "seed":71, "selection":"hard", "l2":0.01, "dropout":0.3},
+  {"name":"mlp128_relative_reg", "mode":"relative", "hidden":128, "loss":"hybrid", "seed":41, "selection":"hard", "l2":0.01, "dropout":0.3},
+  {"name":"mlp64_hard", "mode":"raw", "hidden":64, "loss":"hybrid", "seed":71, "selection":"hard", "hard_training":true, "l2":0.005, "dropout":0.3},
+  {"name":"mlp128_hard", "mode":"relative", "hidden":128, "loss":"hybrid", "seed":29, "selection":"hard", "hard_training":true, "l2":0.005, "dropout":0.3}
+]

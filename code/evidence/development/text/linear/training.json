@@ -1,0 +1,90 @@
+{
+  "arguments": {
+    "trees": 180,
+    "depth": 3,
+    "learning_rate": 0.06,
+    "l2": 10.0,
+    "min_leaf": 50,
+    "exclude": "",
+    "seed": 2026,
+    "output": "runs\\text\\linear",
+    "model": "linear",
+    "linear_steps": 1000
+  },
+  "best_validation_accuracy": 90.85212707519531,
+  "records": [
+    {
+      "step": 100,
+      "validation_accuracy": 90.85212707519531,
+      "hard_validation_accuracy": 79.43661499023438,
+      "hard_validation_n": 355,
+      "elapsed_seconds": 1.0850756000727415
+    },
+    {
+      "step": 200,
+      "validation_accuracy": 90.47618865966797,
+      "hard_validation_accuracy": 78.591552734375,
+      "hard_validation_n": 355,
+      "elapsed_seconds": 1.2231000000610948
+    },
+    {
+      "step": 300,
+      "validation_accuracy": 90.47618865966797,
+      "hard_validation_accuracy": 78.591552734375,
+      "hard_validation_n": 355,
+      "elapsed_seconds": 1.3638559998944402
+    },
+    {
+      "step": 400,
+      "validation_accuracy": 90.47618865966797,
+      "hard_validation_accuracy": 78.591552734375,
+      "hard_validation_n": 355,
+      "elapsed_seconds": 1.5021271998994052
+    },
+    {
+      "step": 500,
+      "validation_accuracy": 90.47618865966797,
+      "hard_validation_accuracy": 78.591552734375,
+      "hard_validation_n": 355,
+      "elapsed_seconds": 1.6471238997764885
+    },
+    {
+      "step": 600,
+      "validation_accuracy": 90.47618865966797,
+      "hard_validation_accuracy": 78.591552734375,
+      "hard_validation_n": 355,
+      "elapsed_seconds": 1.7833914998918772
+    },
+    {
+      "step": 700,
+      "validation_accuracy": 90.47618865966797,
+      "hard_validation_accuracy": 78.591552734375,
+      "hard_validation_n": 355,
+      "elapsed_seconds": 1.9212209000252187
+    },
+    {
+      "step": 800,
+      "validation_accuracy": 90.47618865966797,
+      "hard_validation_accuracy": 78.591552734375,
+      "hard_validation_n": 355,
+      "elapsed_seconds": 2.056890199892223
+    },
+    {
+      "step": 900,
+      "validation_accuracy": 90.47618865966797,
+      "hard_validation_accuracy": 78.591552734375,
+      "hard_validation_n": 355,
+      "elapsed_seconds": 2.186550899874419
+    },
+    {
+      "step": 1000,
+      "validation_accuracy": 90.47618865966797,
+      "hard_validation_accuracy": 78.591552734375,
+      "hard_validation_n": 355,
+      "elapsed_seconds": 2.3114543999545276
+    }
+  ],
+  "total_seconds": 2.3115248000249267,
+  "features": 192,
+  "asset_bytes": 4608
+}

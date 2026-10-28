@@ -1,0 +1,6 @@
+[
+  {"name":"mlp128_hard_s31", "mode":"relative", "hidden":128, "loss":"hybrid", "seed":31, "selection":"hard", "hard_training":true, "l2":0.005, "dropout":0.3},
+  {"name":"mlp128_hard_s37", "mode":"relative", "hidden":128, "loss":"hybrid", "seed":37, "selection":"hard", "hard_training":true, "l2":0.005, "dropout":0.3},
+  {"name":"mlp128_hard_s41", "mode":"relative", "hidden":128, "loss":"hybrid", "seed":41, "selection":"hard", "hard_training":true, "l2":0.005, "dropout":0.3},
+  {"name":"mlp128_hard_s43", "mode":"relative", "hidden":128, "loss":"hybrid", "seed":43, "selection":"hard", "hard_training":true, "l2":0.005, "dropout":0.3}
+]

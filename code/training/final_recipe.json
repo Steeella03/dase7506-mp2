@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "description": "Frozen final training and fusion recipe. No test-based selection.",
+  "embedding_configs": [
+    {"batch_size": 128, "epochs": 70, "patience": 12, "lr": 0.002, "l2": 0.001, "dropout": 0.1, "name": "linear_listwise", "mode": "raw", "hidden": 0, "loss": "hybrid", "seed": 17},
+    {"batch_size": 128, "epochs": 70, "patience": 12, "lr": 0.001, "l2": 0.005, "dropout": 0.3, "name": "mlp128_hard", "mode": "relative", "hidden": 128, "loss": "hybrid", "seed": 29, "selection": "hard", "hard_training": true},
+    {"batch_size": 128, "epochs": 70, "patience": 12, "lr": 0.001, "l2": 0.005, "dropout": 0.3, "name": "mlp128_hard_s31", "mode": "relative", "hidden": 128, "loss": "hybrid", "seed": 31, "selection": "hard", "hard_training": true},
+    {"batch_size": 128, "epochs": 70, "patience": 12, "lr": 0.001, "l2": 0.005, "dropout": 0.3, "name": "mlp128_hard_s37", "mode": "relative", "hidden": 128, "loss": "hybrid", "seed": 37, "selection": "hard", "hard_training": true},
+    {"batch_size": 128, "epochs": 70, "patience": 12, "lr": 0.001, "l2": 0.005, "dropout": 0.3, "name": "mlp128_hard_s41", "mode": "relative", "hidden": 128, "loss": "hybrid", "seed": 41, "selection": "hard", "hard_training": true},
+    {"batch_size": 128, "epochs": 70, "patience": 12, "lr": 0.001, "l2": 0.005, "dropout": 0.3, "name": "mlp128_hard_s43", "mode": "relative", "hidden": 128, "loss": "hybrid", "seed": 43, "selection": "hard", "hard_training": true}
+  ],
+  "text_arguments": {"trees": 140, "depth": 3, "learning_rate": 0.06, "l2": 10.0, "min_leaf": 50, "exclude": "arithmetic", "seed": 2026, "model": "tree", "linear_steps": 1200},
+  "fusion": {
+    "schema_version": 1,
+    "pooling": "sum",
+    "pool_weight": 0.0,
+    "vote_weight": 0.0,
+    "linear_name": "linear_listwise",
+    "mlp_names": ["mlp128_hard", "mlp128_hard_s31", "mlp128_hard_s37", "mlp128_hard_s41", "mlp128_hard_s43"],
+    "linear_weight": 0.125,
+    "mlp_ensemble_weight": 0.125,
+    "text_weight": 0.75,
+    "transform": "softmax",
+    "temperature": 1.0,
+    "ensemble_aggregation": "equal_mean_raw_logits"
+  }
+}

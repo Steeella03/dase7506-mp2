@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "pooling": "sum",
+  "pool_weight": 0.0,
+  "vote_weight": 0.1,
+  "components": [
+    {
+      "method": "text",
+      "checkpoint": "models/0-text-model.npz",
+      "weight": 1.0,
+      "transform": "softmax",
+      "temperature": 1.0
+    }
+  ]
+}

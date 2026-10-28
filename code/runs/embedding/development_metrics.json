@@ -1,0 +1,138 @@
+{
+  "models": {
+    "linear_bce": {
+      "validation_accuracy": 89.72431182861328,
+      "hard_validation_accuracy": 77.46479034423828,
+      "hard_validation_n": 355,
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_bce.npz"
+    },
+    "linear_hard": {
+      "validation_accuracy": 90.35087585449219,
+      "hard_validation_accuracy": 81.40845489501953,
+      "hard_validation_n": 355,
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_hard.npz"
+    },
+    "linear_l2strong": {
+      "validation_accuracy": 91.22806549072266,
+      "hard_validation_accuracy": 81.69013977050781,
+      "hard_validation_n": 355,
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_l2strong.npz"
+    },
+    "linear_listwise_pure": {
+      "validation_accuracy": 90.35087585449219,
+      "hard_validation_accuracy": 80.8450698852539,
+      "hard_validation_n": 355,
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise_pure.npz"
+    },
+    "linear_listwise": {
+      "validation_accuracy": 91.47869873046875,
+      "hard_validation_accuracy": 81.69013977050781,
+      "hard_validation_n": 355,
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz"
+    },
+    "mlp128_hard_s31": {
+      "validation_accuracy": 90.35087585449219,
+      "hard_validation_accuracy": 81.97183227539062,
+      "hard_validation_n": 355,
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp128_hard_s31.npz"
+    },
+    "mlp128_hard_s37": {
+      "validation_accuracy": 89.97493743896484,
+      "hard_validation_accuracy": 80.8450698852539,
+      "hard_validation_n": 355,
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp128_hard_s37.npz"
+    },
+    "mlp128_hard_s41": {
+      "validation_accuracy": 90.35087585449219,
+      "hard_validation_accuracy": 81.12676239013672,
+      "hard_validation_n": 355,
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp128_hard_s41.npz"
+    },
+    "mlp128_hard_s43": {
+      "validation_accuracy": 89.47368621826172,
+      "hard_validation_accuracy": 80.5633773803711,
+      "hard_validation_n": 355,
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp128_hard_s43.npz"
+    },
+    "mlp128_hard": {
+      "validation_accuracy": 90.85212707519531,
+      "hard_validation_accuracy": 82.53520965576172,
+      "hard_validation_n": 355,
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp128_hard.npz"
+    },
+    "mlp128_raw": {
+      "validation_accuracy": 90.60150146484375,
+      "hard_validation_accuracy": 80.28169250488281,
+      "hard_validation_n": 355,
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp128_raw.npz"
+    },
+    "mlp128_regularized": {
+      "validation_accuracy": 90.35087585449219,
+      "hard_validation_accuracy": 80.8450698852539,
+      "hard_validation_n": 355,
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp128_regularized.npz"
+    },
+    "mlp128_relative_reg": {
+      "validation_accuracy": 90.85212707519531,
+      "hard_validation_accuracy": 81.40845489501953,
+      "hard_validation_n": 355,
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp128_relative_reg.npz"
+    },
+    "mlp64_hard": {
+      "validation_accuracy": 90.10025024414062,
+      "hard_validation_accuracy": 81.40845489501953,
+      "hard_validation_n": 355,
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_hard.npz"
+    },
+    "mlp64_pure": {
+      "validation_accuracy": 91.10275268554688,
+      "hard_validation_accuracy": 80.8450698852539,
+      "hard_validation_n": 355,
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_pure.npz"
+    },
+    "mlp64_raw": {
+      "validation_accuracy": 91.35337829589844,
+      "hard_validation_accuracy": 81.40845489501953,
+      "hard_validation_n": 355,
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz"
+    },
+    "mlp64_regularized": {
+      "validation_accuracy": 90.47618865966797,
+      "hard_validation_accuracy": 80.8450698852539,
+      "hard_validation_n": 355,
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_regularized.npz"
+    },
+    "mlp64_relative": {
+      "validation_accuracy": 91.22806549072266,
+      "hard_validation_accuracy": 81.40845489501953,
+      "hard_validation_n": 355,
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_relative.npz"
+    },
+    "ridge_centered_0p001": {
+      "validation_accuracy": 90.60150146484375,
+      "hard_validation_accuracy": 80.28169250488281,
+      "hard_validation_n": 355,
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\ridge_centered_0p001.npz"
+    },
+    "ridge_centered_0p01": {
+      "validation_accuracy": 91.22806549072266,
+      "hard_validation_accuracy": 81.40845489501953,
+      "hard_validation_n": 355,
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\ridge_centered_0p01.npz"
+    },
+    "ridge_centered_0p1": {
+      "validation_accuracy": 91.10275268554688,
+      "hard_validation_accuracy": 81.69013977050781,
+      "hard_validation_n": 355,
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\ridge_centered_0p1.npz"
+    },
+    "ridge_centered_1p0": {
+      "validation_accuracy": 88.22055053710938,
+      "hard_validation_accuracy": 76.33802795410156,
+      "hard_validation_n": 355,
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\ridge_centered_1p0.npz"
+    }
+  },
+  "validation_n": 798,
+  "hard_validation_n": 355
+}

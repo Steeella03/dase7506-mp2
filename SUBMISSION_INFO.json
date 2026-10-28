@@ -1,0 +1,15 @@
+{
+  "status": "publication_in_progress_not_submitted",
+  "source_version": "mp2-751aa13c6e1c",
+  "student_id": "3036709224",
+  "code_url": null,
+  "checkpoint_url": null,
+  "official_accuracy_percent": 82.22698072805139,
+  "official_correct": 384,
+  "official_test_questions": 467,
+  "checkpoint_relative_path": "code/artifacts/final",
+  "report_relative_path": "report/MP2_Report.pdf",
+  "official_score_relative_path": "code/evidence/official/final-test/test-score.json",
+  "submission_website": "https://xudongwu-0.github.io/courses/dase7506/mp2/",
+  "deadline": "2026-10-31T23:59:00+08:00"
+}

@@ -1,0 +1,84 @@
+{
+  "name": "final-validation",
+  "method": "submission.py",
+  "checkpoint": "artifacts\\final",
+  "split": "validation",
+  "accuracy": 94.11027568922306,
+  "correct": 751,
+  "n": 798,
+  "asset_bytes": 5375667,
+  "assets": [
+    {
+      "path": "artifacts\\final\\config.json",
+      "bytes_on_disk": 897,
+      "uncompressed_bytes_counted": 897,
+      "sha256": "da643649f4f3fbd80ae7fcd7d8da43e36c83e5aeb8116b8308b8186a530ee05d"
+    },
+    {
+      "path": "artifacts\\final\\models\\0-embedding-linear_listwise.npz",
+      "bytes_on_disk": 13536,
+      "uncompressed_bytes_counted": 13536,
+      "sha256": "36ac25d26dd5eb1539f0f12bad29fe12208b22ddbea2c9916f4d5bc0ff449bf6"
+    },
+    {
+      "path": "artifacts\\final\\models\\1-0-embedding-mlp128_hard.npz",
+      "bytes_on_disk": 1067724,
+      "uncompressed_bytes_counted": 1067724,
+      "sha256": "a942fb970980b610e8d1e7056bae71338e20c0ee5750973597cbd391a191aadb"
+    },
+    {
+      "path": "artifacts\\final\\models\\1-1-embedding-mlp128_hard_s31.npz",
+      "bytes_on_disk": 1067724,
+      "uncompressed_bytes_counted": 1067724,
+      "sha256": "50cc1f16d27de1577ee0416205f87c1304b2a520d9c40c622b3288a9ff881b19"
+    },
+    {
+      "path": "artifacts\\final\\models\\1-2-embedding-mlp128_hard_s37.npz",
+      "bytes_on_disk": 1067724,
+      "uncompressed_bytes_counted": 1067724,
+      "sha256": "c6ffc540d5dc1c04a8b19da8831d88ec34b502efba774b9d5e99fcda3697160e"
+    },
+    {
+      "path": "artifacts\\final\\models\\1-3-embedding-mlp128_hard_s41.npz",
+      "bytes_on_disk": 1067724,
+      "uncompressed_bytes_counted": 1067724,
+      "sha256": "77626feb99e5d49e032231cf7395d659d2da48498aa2ae60e15f973085fa71ec"
+    },
+    {
+      "path": "artifacts\\final\\models\\1-4-embedding-mlp128_hard_s43.npz",
+      "bytes_on_disk": 1067724,
+      "uncompressed_bytes_counted": 1067724,
+      "sha256": "a3854eadc8054ee6b78c0cb81d586ff79a7c432466709ee673ac45a776360afb"
+    },
+    {
+      "path": "artifacts\\final\\models\\2-text-model.npz",
+      "bytes_on_disk": 22614,
+      "uncompressed_bytes_counted": 22614,
+      "sha256": "771e41a6c58b1268ecace26af7dd70abfb45a3646e14ec4f039a8835d475bb13"
+    }
+  ],
+  "timings": [
+    {
+      "prediction_process_seconds": 2.8253279998898506,
+      "scoring_process_seconds": 0.37233619997277856,
+      "complete_seconds": 3.197664199862629
+    },
+    {
+      "prediction_process_seconds": 2.701945399865508,
+      "scoring_process_seconds": 0.4200615999288857,
+      "complete_seconds": 3.1220069997943938
+    },
+    {
+      "prediction_process_seconds": 2.845777500420809,
+      "scoring_process_seconds": 0.3804355999454856,
+      "complete_seconds": 3.2262131003662944
+    }
+  ],
+  "threads": 4,
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "local_time_limit_pass": true,
+  "reference_cpu_eligibility": "Requires instructor reference-machine evaluation",
+  "recorded_at_utc": "2026-10-22T08:10:29Z"
+}

@@ -1,0 +1,135 @@
+{
+  "split": "validation",
+  "search_kind": "frozen_configuration",
+  "searched_configurations": 1,
+  "search_seconds": 2.5648209997452796,
+  "seed": null,
+  "note": "No statistical model fitted here; component models trained on train only. Root performs official scoring and acceptance.",
+  "n": 798,
+  "hard_n": 355,
+  "component_sources": [
+    {
+      "method": "embedding",
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+      "weight": 1.0,
+      "transform": "softmax",
+      "temperature": 1.0
+    },
+    {
+      "method": "embedding",
+      "checkpoints": [
+        "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp128_hard.npz",
+        "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp128_hard_s31.npz",
+        "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp128_hard_s37.npz",
+        "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp128_hard_s41.npz",
+        "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp128_hard_s43.npz"
+      ],
+      "weight": 1.0,
+      "transform": "softmax",
+      "temperature": 1.0
+    },
+    {
+      "method": "text",
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\no_arithmetic\\model.npz",
+      "weight": 1.0,
+      "transform": "softmax",
+      "temperature": 1.0
+    }
+  ],
+  "best": {
+    "text_weight": 0.75,
+    "schema_version": 1,
+    "pooling": "sum",
+    "pool_weight": 0.0,
+    "vote_weight": 0.0,
+    "accuracy": 94.11027526855469,
+    "correct": 751,
+    "n": 798,
+    "hard_accuracy": 86.76055908203125,
+    "hard_correct": 308,
+    "hard_n": 355,
+    "components": [
+      {
+        "method": "embedding",
+        "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+        "weight": 0.125,
+        "transform": "softmax",
+        "temperature": 1.0
+      },
+      {
+        "method": "embedding",
+        "checkpoints": [
+          "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp128_hard.npz",
+          "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp128_hard_s31.npz",
+          "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp128_hard_s37.npz",
+          "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp128_hard_s41.npz",
+          "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp128_hard_s43.npz"
+        ],
+        "weight": 0.125,
+        "transform": "softmax",
+        "temperature": 1.0
+      },
+      {
+        "method": "text",
+        "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\no_arithmetic\\model.npz",
+        "weight": 0.75,
+        "transform": "softmax",
+        "temperature": 1.0
+      }
+    ]
+  },
+  "search_results": [
+    {
+      "text_weight": 0.75,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.0,
+      "vote_weight": 0.0,
+      "accuracy": 94.11027526855469,
+      "correct": 751,
+      "n": 798,
+      "hard_accuracy": 86.76055908203125,
+      "hard_correct": 308,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.125,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoints": [
+            "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp128_hard.npz",
+            "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp128_hard_s31.npz",
+            "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp128_hard_s37.npz",
+            "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp128_hard_s41.npz",
+            "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp128_hard_s43.npz"
+          ],
+          "weight": 0.125,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\no_arithmetic\\model.npz",
+          "weight": 0.75,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    }
+  ],
+  "variants": [
+    "best",
+    "without_votes",
+    "without_pooling",
+    "embedding_only",
+    "embedding_vote",
+    "text_only",
+    "text_vote",
+    "without_text"
+  ]
+}

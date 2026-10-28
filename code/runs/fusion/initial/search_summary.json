@@ -1,0 +1,1512 @@
+{
+  "split": "validation",
+  "search_kind": "predeclared_small_scalar_grid",
+  "searched_configurations": 45,
+  "search_seconds": 2.1133536999113858,
+  "seed": null,
+  "note": "No statistical model fitted here; component models trained on train only. Root performs official scoring and acceptance.",
+  "n": 798,
+  "hard_n": 355,
+  "component_sources": [
+    {
+      "method": "embedding",
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+      "weight": 1.0,
+      "transform": "softmax",
+      "temperature": 1.0
+    },
+    {
+      "method": "embedding",
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+      "weight": 1.0,
+      "transform": "softmax",
+      "temperature": 1.0
+    },
+    {
+      "method": "text",
+      "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+      "weight": 1.0,
+      "transform": "softmax",
+      "temperature": 1.0
+    }
+  ],
+  "best": {
+    "text_weight": 0.75,
+    "schema_version": 1,
+    "pooling": "sum",
+    "pool_weight": 0.0,
+    "vote_weight": 0.0,
+    "accuracy": 93.10777282714844,
+    "correct": 743,
+    "n": 798,
+    "hard_accuracy": 84.50704193115234,
+    "hard_correct": 300,
+    "hard_n": 355,
+    "components": [
+      {
+        "method": "embedding",
+        "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+        "weight": 0.125,
+        "transform": "softmax",
+        "temperature": 1.0
+      },
+      {
+        "method": "embedding",
+        "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+        "weight": 0.125,
+        "transform": "softmax",
+        "temperature": 1.0
+      },
+      {
+        "method": "text",
+        "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+        "weight": 0.75,
+        "transform": "softmax",
+        "temperature": 1.0
+      }
+    ]
+  },
+  "search_results": [
+    {
+      "text_weight": 0.75,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.0,
+      "vote_weight": 0.0,
+      "accuracy": 93.10777282714844,
+      "correct": 743,
+      "n": 798,
+      "hard_accuracy": 84.50704193115234,
+      "hard_correct": 300,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.125,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.125,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.75,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.5,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.0,
+      "vote_weight": 0.0,
+      "accuracy": 92.85713958740234,
+      "correct": 741,
+      "n": 798,
+      "hard_accuracy": 83.94365692138672,
+      "hard_correct": 298,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.5,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.0,
+      "vote_weight": 0.1,
+      "accuracy": 92.85713958740234,
+      "correct": 741,
+      "n": 798,
+      "hard_accuracy": 83.94365692138672,
+      "hard_correct": 298,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.5,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.0,
+      "vote_weight": 0.25,
+      "accuracy": 92.85713958740234,
+      "correct": 741,
+      "n": 798,
+      "hard_accuracy": 83.94365692138672,
+      "hard_correct": 298,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.5,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.5,
+      "vote_weight": 0.0,
+      "accuracy": 92.73182678222656,
+      "correct": 740,
+      "n": 798,
+      "hard_accuracy": 83.66197204589844,
+      "hard_correct": 297,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.5,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.5,
+      "vote_weight": 0.1,
+      "accuracy": 92.73182678222656,
+      "correct": 740,
+      "n": 798,
+      "hard_accuracy": 83.66197204589844,
+      "hard_correct": 297,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.25,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 1.0,
+      "vote_weight": 0.0,
+      "accuracy": 92.73182678222656,
+      "correct": 740,
+      "n": 798,
+      "hard_accuracy": 83.66197204589844,
+      "hard_correct": 297,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.375,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.375,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.75,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.0,
+      "vote_weight": 0.1,
+      "accuracy": 92.60651397705078,
+      "correct": 739,
+      "n": 798,
+      "hard_accuracy": 83.38027954101562,
+      "hard_correct": 296,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.125,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.125,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.75,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.25,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.5,
+      "vote_weight": 0.1,
+      "accuracy": 92.60651397705078,
+      "correct": 739,
+      "n": 798,
+      "hard_accuracy": 83.38027954101562,
+      "hard_correct": 296,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.375,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.375,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.0,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 1.0,
+      "vote_weight": 0.1,
+      "accuracy": 92.481201171875,
+      "correct": 738,
+      "n": 798,
+      "hard_accuracy": 83.09858703613281,
+      "hard_correct": 295,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.0,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 1.0,
+      "vote_weight": 0.25,
+      "accuracy": 92.481201171875,
+      "correct": 738,
+      "n": 798,
+      "hard_accuracy": 83.09858703613281,
+      "hard_correct": 295,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.25,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.0,
+      "vote_weight": 0.25,
+      "accuracy": 92.481201171875,
+      "correct": 738,
+      "n": 798,
+      "hard_accuracy": 83.09858703613281,
+      "hard_correct": 295,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.375,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.375,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.25,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.5,
+      "vote_weight": 0.0,
+      "accuracy": 92.481201171875,
+      "correct": 738,
+      "n": 798,
+      "hard_accuracy": 83.09858703613281,
+      "hard_correct": 295,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.375,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.375,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.25,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.5,
+      "vote_weight": 0.25,
+      "accuracy": 92.481201171875,
+      "correct": 738,
+      "n": 798,
+      "hard_accuracy": 83.09858703613281,
+      "hard_correct": 295,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.375,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.375,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.5,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.5,
+      "vote_weight": 0.25,
+      "accuracy": 92.481201171875,
+      "correct": 738,
+      "n": 798,
+      "hard_accuracy": 83.09858703613281,
+      "hard_correct": 295,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.5,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 1.0,
+      "vote_weight": 0.0,
+      "accuracy": 92.481201171875,
+      "correct": 738,
+      "n": 798,
+      "hard_accuracy": 83.09858703613281,
+      "hard_correct": 295,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.25,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 1.0,
+      "vote_weight": 0.1,
+      "accuracy": 92.481201171875,
+      "correct": 738,
+      "n": 798,
+      "hard_accuracy": 83.09858703613281,
+      "hard_correct": 295,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.375,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.375,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.0,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.5,
+      "vote_weight": 0.25,
+      "accuracy": 92.35588836669922,
+      "correct": 737,
+      "n": 798,
+      "hard_accuracy": 82.81690216064453,
+      "hard_correct": 294,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.0,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 1.0,
+      "vote_weight": 0.0,
+      "accuracy": 92.35588836669922,
+      "correct": 737,
+      "n": 798,
+      "hard_accuracy": 82.81690216064453,
+      "hard_correct": 294,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.25,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.0,
+      "vote_weight": 0.1,
+      "accuracy": 92.35588836669922,
+      "correct": 737,
+      "n": 798,
+      "hard_accuracy": 82.81690216064453,
+      "hard_correct": 294,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.375,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.375,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.0,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.0,
+      "vote_weight": 0.25,
+      "accuracy": 92.23057556152344,
+      "correct": 736,
+      "n": 798,
+      "hard_accuracy": 82.53520965576172,
+      "hard_correct": 293,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.0,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.5,
+      "vote_weight": 0.0,
+      "accuracy": 92.23057556152344,
+      "correct": 736,
+      "n": 798,
+      "hard_accuracy": 82.53520965576172,
+      "hard_correct": 293,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.0,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.5,
+      "vote_weight": 0.1,
+      "accuracy": 92.23057556152344,
+      "correct": 736,
+      "n": 798,
+      "hard_accuracy": 82.53520965576172,
+      "hard_correct": 293,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.25,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.0,
+      "vote_weight": 0.0,
+      "accuracy": 92.23057556152344,
+      "correct": 736,
+      "n": 798,
+      "hard_accuracy": 82.53520965576172,
+      "hard_correct": 293,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.375,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.375,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.75,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.0,
+      "vote_weight": 0.25,
+      "accuracy": 92.23057556152344,
+      "correct": 736,
+      "n": 798,
+      "hard_accuracy": 82.53520965576172,
+      "hard_correct": 293,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.125,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.125,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.75,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.75,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.5,
+      "vote_weight": 0.0,
+      "accuracy": 92.23057556152344,
+      "correct": 736,
+      "n": 798,
+      "hard_accuracy": 82.53520965576172,
+      "hard_correct": 293,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.125,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.125,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.75,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.5,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 1.0,
+      "vote_weight": 0.1,
+      "accuracy": 92.23057556152344,
+      "correct": 736,
+      "n": 798,
+      "hard_accuracy": 82.53520965576172,
+      "hard_correct": 293,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.25,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 1.0,
+      "vote_weight": 0.25,
+      "accuracy": 92.23057556152344,
+      "correct": 736,
+      "n": 798,
+      "hard_accuracy": 82.53520965576172,
+      "hard_correct": 293,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.375,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.375,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.75,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.5,
+      "vote_weight": 0.1,
+      "accuracy": 92.10526275634766,
+      "correct": 735,
+      "n": 798,
+      "hard_accuracy": 82.25352478027344,
+      "hard_correct": 292,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.125,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.125,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.75,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.0,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.0,
+      "vote_weight": 0.0,
+      "accuracy": 91.97994995117188,
+      "correct": 734,
+      "n": 798,
+      "hard_accuracy": 81.97183227539062,
+      "hard_correct": 291,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.0,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.0,
+      "vote_weight": 0.1,
+      "accuracy": 91.97994995117188,
+      "correct": 734,
+      "n": 798,
+      "hard_accuracy": 81.97183227539062,
+      "hard_correct": 291,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.5,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 1.0,
+      "vote_weight": 0.25,
+      "accuracy": 91.97994995117188,
+      "correct": 734,
+      "n": 798,
+      "hard_accuracy": 81.97183227539062,
+      "hard_correct": 291,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.25,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.5,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.75,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.5,
+      "vote_weight": 0.25,
+      "accuracy": 91.60401153564453,
+      "correct": 731,
+      "n": 798,
+      "hard_accuracy": 81.12676239013672,
+      "hard_correct": 288,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.125,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.125,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.75,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.75,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 1.0,
+      "vote_weight": 0.0,
+      "accuracy": 91.60401153564453,
+      "correct": 731,
+      "n": 798,
+      "hard_accuracy": 81.12676239013672,
+      "hard_correct": 288,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.125,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.125,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.75,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.75,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 1.0,
+      "vote_weight": 0.1,
+      "accuracy": 91.47869873046875,
+      "correct": 730,
+      "n": 798,
+      "hard_accuracy": 80.8450698852539,
+      "hard_correct": 287,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.125,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.125,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.75,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 0.75,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 1.0,
+      "vote_weight": 0.25,
+      "accuracy": 91.47869873046875,
+      "correct": 730,
+      "n": 798,
+      "hard_accuracy": 80.8450698852539,
+      "hard_correct": 287,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\linear_listwise.npz",
+          "weight": 0.125,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "embedding",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\embedding\\mlp64_raw.npz",
+          "weight": 0.125,
+          "transform": "softmax",
+          "temperature": 1.0
+        },
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 0.75,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 1.0,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.0,
+      "vote_weight": 0.1,
+      "accuracy": 91.10275268554688,
+      "correct": 727,
+      "n": 798,
+      "hard_accuracy": 80.0,
+      "hard_correct": 284,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 1.0,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 1.0,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.0,
+      "vote_weight": 0.0,
+      "accuracy": 90.85212707519531,
+      "correct": 725,
+      "n": 798,
+      "hard_accuracy": 79.43661499023438,
+      "hard_correct": 282,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 1.0,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 1.0,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.5,
+      "vote_weight": 0.0,
+      "accuracy": 90.72681427001953,
+      "correct": 724,
+      "n": 798,
+      "hard_accuracy": 79.1549301147461,
+      "hard_correct": 281,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 1.0,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 1.0,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.5,
+      "vote_weight": 0.1,
+      "accuracy": 90.72681427001953,
+      "correct": 724,
+      "n": 798,
+      "hard_accuracy": 79.1549301147461,
+      "hard_correct": 281,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 1.0,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 1.0,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.0,
+      "vote_weight": 0.25,
+      "accuracy": 90.60150146484375,
+      "correct": 723,
+      "n": 798,
+      "hard_accuracy": 78.87323760986328,
+      "hard_correct": 280,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 1.0,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 1.0,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 0.5,
+      "vote_weight": 0.25,
+      "accuracy": 90.2255630493164,
+      "correct": 720,
+      "n": 798,
+      "hard_accuracy": 78.02816772460938,
+      "hard_correct": 277,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 1.0,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 1.0,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 1.0,
+      "vote_weight": 0.0,
+      "accuracy": 90.2255630493164,
+      "correct": 720,
+      "n": 798,
+      "hard_accuracy": 78.02816772460938,
+      "hard_correct": 277,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 1.0,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 1.0,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 1.0,
+      "vote_weight": 0.1,
+      "accuracy": 90.2255630493164,
+      "correct": 720,
+      "n": 798,
+      "hard_accuracy": 78.02816772460938,
+      "hard_correct": 277,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 1.0,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    },
+    {
+      "text_weight": 1.0,
+      "schema_version": 1,
+      "pooling": "sum",
+      "pool_weight": 1.0,
+      "vote_weight": 0.25,
+      "accuracy": 90.2255630493164,
+      "correct": 720,
+      "n": 798,
+      "hard_accuracy": 78.02816772460938,
+      "hard_correct": 277,
+      "hard_n": 355,
+      "components": [
+        {
+          "method": "text",
+          "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\text\\full\\model.npz",
+          "weight": 1.0,
+          "transform": "softmax",
+          "temperature": 1.0
+        }
+      ]
+    }
+  ],
+  "variants": [
+    "best",
+    "without_votes",
+    "without_pooling",
+    "embedding_only",
+    "embedding_vote",
+    "text_only",
+    "text_vote",
+    "without_text"
+  ]
+}

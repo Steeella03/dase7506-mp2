@@ -1,0 +1,32 @@
+{
+  "name": "text-no-arithmetic",
+  "method": "methods\\text.py",
+  "checkpoint": "runs\\text\\no_arithmetic\\model.npz",
+  "split": "validation",
+  "accuracy": 91.35338345864662,
+  "correct": 729,
+  "n": 798,
+  "asset_bytes": 22614,
+  "assets": [
+    {
+      "path": "runs\\text\\no_arithmetic\\model.npz",
+      "bytes_on_disk": 22614,
+      "uncompressed_bytes_counted": 22614,
+      "sha256": "771e41a6c58b1268ecace26af7dd70abfb45a3646e14ec4f039a8835d475bb13"
+    }
+  ],
+  "timings": [
+    {
+      "prediction_process_seconds": 2.2115201000124216,
+      "scoring_process_seconds": 0.38289890019223094,
+      "complete_seconds": 2.5944190002046525
+    }
+  ],
+  "threads": 4,
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "local_time_limit_pass": true,
+  "reference_cpu_eligibility": "Requires instructor reference-machine evaluation",
+  "recorded_at_utc": "2026-10-22T08:06:21Z"
+}

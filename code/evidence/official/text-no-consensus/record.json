@@ -1,0 +1,32 @@
+{
+  "name": "text-no-consensus",
+  "method": "methods\\text.py",
+  "checkpoint": "runs\\text\\no_consensus\\model.npz",
+  "split": "validation",
+  "accuracy": 90.10025062656642,
+  "correct": 719,
+  "n": 798,
+  "asset_bytes": 27958,
+  "assets": [
+    {
+      "path": "runs\\text\\no_consensus\\model.npz",
+      "bytes_on_disk": 27958,
+      "uncompressed_bytes_counted": 27958,
+      "sha256": "8a522c3b409f2b4b8dcc90a61180cdbd021d20820eaa2dde26463e54b59f7287"
+    }
+  ],
+  "timings": [
+    {
+      "prediction_process_seconds": 2.289633700158447,
+      "scoring_process_seconds": 0.3832899001426995,
+      "complete_seconds": 2.6729236003011465
+    }
+  ],
+  "threads": 4,
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "local_time_limit_pass": true,
+  "reference_cpu_eligibility": "Requires instructor reference-machine evaluation",
+  "recorded_at_utc": "2026-10-22T08:06:24Z"
+}

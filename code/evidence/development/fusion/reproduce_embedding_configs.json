@@ -1,0 +1,30 @@
+[
+  {
+    "batch_size": 128,
+    "epochs": 70,
+    "patience": 12,
+    "lr": 0.002,
+    "l2": 0.001,
+    "dropout": 0.1,
+    "name": "linear_listwise",
+    "mode": "raw",
+    "hidden": 0,
+    "loss": "hybrid",
+    "seed": 17
+  },
+  {
+    "batch_size": 128,
+    "epochs": 70,
+    "patience": 12,
+    "lr": 0.001,
+    "l2": 0.005,
+    "dropout": 0.3,
+    "name": "mlp128_hard",
+    "mode": "relative",
+    "hidden": 128,
+    "loss": "hybrid",
+    "seed": 29,
+    "selection": "hard",
+    "hard_training": true
+  }
+]

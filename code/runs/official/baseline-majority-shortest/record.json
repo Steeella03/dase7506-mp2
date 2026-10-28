@@ -1,0 +1,32 @@
+{
+  "name": "baseline-majority-shortest",
+  "method": "methods\\baselines.py",
+  "checkpoint": "runs\\baseline\\majority_shortest.json",
+  "split": "validation",
+  "accuracy": 84.46115288220551,
+  "correct": 674,
+  "n": 798,
+  "asset_bytes": 37,
+  "assets": [
+    {
+      "path": "runs\\baseline\\majority_shortest.json",
+      "bytes_on_disk": 37,
+      "uncompressed_bytes_counted": 37,
+      "sha256": "d6fab29c5e7afe3276446f943fe3d4f3329d8993b511ce82d5d081135eaeb8a4"
+    }
+  ],
+  "timings": [
+    {
+      "prediction_process_seconds": 0.4660302000120282,
+      "scoring_process_seconds": 0.38750499999150634,
+      "complete_seconds": 0.8535352000035346
+    }
+  ],
+  "threads": 4,
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "local_time_limit_pass": true,
+  "reference_cpu_eligibility": "Requires instructor reference-machine evaluation",
+  "recorded_at_utc": "2026-10-22T07:58:59Z"
+}

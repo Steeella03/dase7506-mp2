@@ -1,0 +1,32 @@
+{
+  "name": "embedding-linear-initial",
+  "method": "methods\\embedding.py",
+  "checkpoint": "runs\\embedding\\linear_listwise.npz",
+  "split": "validation",
+  "accuracy": 91.47869674185463,
+  "correct": 730,
+  "n": 798,
+  "asset_bytes": 13536,
+  "assets": [
+    {
+      "path": "runs\\embedding\\linear_listwise.npz",
+      "bytes_on_disk": 13536,
+      "uncompressed_bytes_counted": 13536,
+      "sha256": "36ac25d26dd5eb1539f0f12bad29fe12208b22ddbea2c9916f4d5bc0ff449bf6"
+    }
+  ],
+  "timings": [
+    {
+      "prediction_process_seconds": 0.6178481997922063,
+      "scoring_process_seconds": 0.5397967998869717,
+      "complete_seconds": 1.157644999679178
+    }
+  ],
+  "threads": 4,
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "local_time_limit_pass": true,
+  "reference_cpu_eligibility": "Requires instructor reference-machine evaluation",
+  "recorded_at_utc": "2026-10-22T08:00:25Z"
+}

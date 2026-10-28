@@ -1,0 +1,44 @@
+{
+  "name": "fusion-extra-votes",
+  "method": "methods\\fusion.py",
+  "checkpoint": "runs\\fusion\\second\\embedding_vote",
+  "split": "validation",
+  "accuracy": 92.4812030075188,
+  "correct": 738,
+  "n": 798,
+  "asset_bytes": 1081750,
+  "assets": [
+    {
+      "path": "runs\\fusion\\second\\embedding_vote\\config.json",
+      "bytes_on_disk": 490,
+      "uncompressed_bytes_counted": 490,
+      "sha256": "985085b36ce9ed41d559609c955fedeaaa572064b20ef33250d1fd0ff9b79c97"
+    },
+    {
+      "path": "runs\\fusion\\second\\embedding_vote\\models\\0-embedding-linear_listwise.npz",
+      "bytes_on_disk": 13536,
+      "uncompressed_bytes_counted": 13536,
+      "sha256": "36ac25d26dd5eb1539f0f12bad29fe12208b22ddbea2c9916f4d5bc0ff449bf6"
+    },
+    {
+      "path": "runs\\fusion\\second\\embedding_vote\\models\\1-embedding-mlp128_hard.npz",
+      "bytes_on_disk": 1067724,
+      "uncompressed_bytes_counted": 1067724,
+      "sha256": "a942fb970980b610e8d1e7056bae71338e20c0ee5750973597cbd391a191aadb"
+    }
+  ],
+  "timings": [
+    {
+      "prediction_process_seconds": 0.6301281000487506,
+      "scoring_process_seconds": 0.3715369999408722,
+      "complete_seconds": 1.0016650999896228
+    }
+  ],
+  "threads": 4,
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "local_time_limit_pass": true,
+  "reference_cpu_eligibility": "Requires instructor reference-machine evaluation",
+  "recorded_at_utc": "2026-10-22T08:06:28Z"
+}

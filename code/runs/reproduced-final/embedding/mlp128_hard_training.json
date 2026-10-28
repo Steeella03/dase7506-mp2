@@ -1,0 +1,257 @@
+{
+  "config": {
+    "batch_size": 128,
+    "epochs": 70,
+    "patience": 12,
+    "lr": 0.001,
+    "l2": 0.005,
+    "dropout": 0.3,
+    "name": "mlp128_hard",
+    "mode": "relative",
+    "hidden": 128,
+    "loss": "hybrid",
+    "seed": 29,
+    "selection": "hard",
+    "hard_training": true
+  },
+  "best_epoch": 16,
+  "validation_accuracy": 90.85212707519531,
+  "hard_validation_accuracy": 82.53520965576172,
+  "hard_validation_n": 355,
+  "validation_listwise_loss": 0.2903174161911011,
+  "training_seconds": 7.6816724999807775,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.855719303396815,
+      "validation_accuracy": 88.59649658203125,
+      "hard_validation_accuracy": 78.30986022949219,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.2727581560611725
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.5752916848084333,
+      "validation_accuracy": 89.09774780273438,
+      "hard_validation_accuracy": 79.1549301147461,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.24535344541072845
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.4803625213558536,
+      "validation_accuracy": 89.47368621826172,
+      "hard_validation_accuracy": 79.71830749511719,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.24447211623191833
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.39881735659480205,
+      "validation_accuracy": 90.2255630493164,
+      "hard_validation_accuracy": 81.12676239013672,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.2578499913215637
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.3412317991425885,
+      "validation_accuracy": 90.72681427001953,
+      "hard_validation_accuracy": 82.25352478027344,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.259966641664505
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.3106758191039682,
+      "validation_accuracy": 89.72431182861328,
+      "hard_validation_accuracy": 80.5633773803711,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.25698450207710266
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.26269552744607827,
+      "validation_accuracy": 89.47368621826172,
+      "hard_validation_accuracy": 80.0,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.2640851140022278
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.23656674180542847,
+      "validation_accuracy": 89.72431182861328,
+      "hard_validation_accuracy": 80.28169250488281,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.26462745666503906
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.21129002355130755,
+      "validation_accuracy": 89.47368621826172,
+      "hard_validation_accuracy": 80.0,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.2745274007320404
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.19050705228476672,
+      "validation_accuracy": 89.22306060791016,
+      "hard_validation_accuracy": 79.43661499023438,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.2843703627586365
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.18141677554136418,
+      "validation_accuracy": 90.10025024414062,
+      "hard_validation_accuracy": 80.8450698852539,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.27321961522102356
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.1689797958875447,
+      "validation_accuracy": 89.72431182861328,
+      "hard_validation_accuracy": 80.5633773803711,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.2831469476222992
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.14918491685570923,
+      "validation_accuracy": 90.10025024414062,
+      "hard_validation_accuracy": 80.8450698852539,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.2841775119304657
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.14568329887956297,
+      "validation_accuracy": 90.35087585449219,
+      "hard_validation_accuracy": 81.69013977050781,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.28197720646858215
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.1420457111627512,
+      "validation_accuracy": 89.5989990234375,
+      "hard_validation_accuracy": 80.28169250488281,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.29935693740844727
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.13549257281994978,
+      "validation_accuracy": 90.85212707519531,
+      "hard_validation_accuracy": 82.53520965576172,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.2903174161911011
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.1354765731880094,
+      "validation_accuracy": 90.35087585449219,
+      "hard_validation_accuracy": 81.69013977050781,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.2921462655067444
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.12426223486746496,
+      "validation_accuracy": 89.22306060791016,
+      "hard_validation_accuracy": 79.43661499023438,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.2892698645591736
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.12337308900753281,
+      "validation_accuracy": 89.97493743896484,
+      "hard_validation_accuracy": 81.12676239013672,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.2991447448730469
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.11980153362257027,
+      "validation_accuracy": 90.47618865966797,
+      "hard_validation_accuracy": 81.97183227539062,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.3089201748371124
+    },
+    {
+      "epoch": 21,
+      "train_loss": 0.11469261957263766,
+      "validation_accuracy": 90.2255630493164,
+      "hard_validation_accuracy": 81.12676239013672,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.30319803953170776
+    },
+    {
+      "epoch": 22,
+      "train_loss": 0.12367539917001662,
+      "validation_accuracy": 89.47368621826172,
+      "hard_validation_accuracy": 79.71830749511719,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.2988400161266327
+    },
+    {
+      "epoch": 23,
+      "train_loss": 0.12899298686798497,
+      "validation_accuracy": 89.34837341308594,
+      "hard_validation_accuracy": 79.43661499023438,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.30906906723976135
+    },
+    {
+      "epoch": 24,
+      "train_loss": 0.1146022654160533,
+      "validation_accuracy": 89.47368621826172,
+      "hard_validation_accuracy": 80.0,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.3024957478046417
+    },
+    {
+      "epoch": 25,
+      "train_loss": 0.1046518013092743,
+      "validation_accuracy": 89.84962463378906,
+      "hard_validation_accuracy": 80.8450698852539,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.3056353032588959
+    },
+    {
+      "epoch": 26,
+      "train_loss": 0.10045332224051007,
+      "validation_accuracy": 90.2255630493164,
+      "hard_validation_accuracy": 80.5633773803711,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.31015247106552124
+    },
+    {
+      "epoch": 27,
+      "train_loss": 0.10160039791039058,
+      "validation_accuracy": 90.35087585449219,
+      "hard_validation_accuracy": 81.69013977050781,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.3149416148662567
+    },
+    {
+      "epoch": 28,
+      "train_loss": 0.09847264992762199,
+      "validation_accuracy": 89.84962463378906,
+      "hard_validation_accuracy": 80.0,
+      "hard_validation_n": 355,
+      "validation_listwise_loss": 0.3198765218257904
+    }
+  ],
+  "checkpoint": "D:\\26Fall\u6e2f\u5927\\Fall\\DASE 7506 Advanced Machine Learning  Methods\\Project\\Mini Project 2\\DASE7506-MP2-main\\code\\runs\\reproduced-final\\embedding\\mlp128_hard.npz",
+  "asset_bytes": 1067724,
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "numpy_version": "2.5.3"
+}
